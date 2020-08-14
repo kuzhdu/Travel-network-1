@@ -5,4 +5,5 @@
 #include "IteratedList.h"
 #include <set>
 
-Itera
+IteratedList::IteratedList(){
+    
