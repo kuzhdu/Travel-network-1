@@ -6,4 +6,4 @@
 #include <set>
 
 IteratedList::IteratedList(){
-    this->it = new ListIt
+    this->it = new ListIterator(&this->list);
