@@ -7,3 +7,6 @@
 
 IteratedList::IteratedList(){
     this->it = new ListIterator(&this->list);
+}
+
+int IteratedList::s
