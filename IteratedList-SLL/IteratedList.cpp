@@ -9,4 +9,4 @@ IteratedList::IteratedList(){
     this->it = new ListIterator(&this->list);
 }
 
-int IteratedList::s
+int IteratedList::size() const {
