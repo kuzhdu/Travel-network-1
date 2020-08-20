@@ -10,3 +10,4 @@ IteratedList::IteratedList(){
 }
 
 int IteratedList::size() const {
+    Node *head =
