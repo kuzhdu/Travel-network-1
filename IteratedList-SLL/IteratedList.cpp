@@ -10,4 +10,5 @@ IteratedList::IteratedList(){
 }
 
 int IteratedList::size() const {
-    Node *head = this->list.getH
+    Node *head = this->list.getHead();
+    int cnt = 0
