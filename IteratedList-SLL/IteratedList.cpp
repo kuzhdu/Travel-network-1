@@ -11,4 +11,6 @@ IteratedList::IteratedList(){
 
 int IteratedList::size() const {
     Node *head = this->list.getHead();
-    int cnt = 0
+    int cnt = 0;
+
+    while (head != nullptr)
