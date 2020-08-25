@@ -14,3 +14,5 @@ int IteratedList::size() const {
     int cnt = 0;
 
     while (head != nullptr)
+    {
+        head = head-
