@@ -16,4 +16,6 @@ int IteratedList::size() const {
     while (head != nullptr)
     {
         head = head->getNext();
-      
+        cnt++;
+    }
+    
