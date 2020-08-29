@@ -18,4 +18,4 @@ int IteratedList::size() const {
         head = head->getNext();
         cnt++;
     }
-    
+    //std::cout << cnt;
