@@ -22,4 +22,6 @@ int IteratedList::size() const {
     return cnt;
 }
 
-//all the elements a
+//all the elements are unique
+
+bool Iterat
