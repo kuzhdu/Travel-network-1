@@ -19,4 +19,7 @@ int IteratedList::size() const {
         cnt++;
     }
     //std::cout << cnt;
-    return cn
+    return cnt;
+}
+
+//all the elements a
