@@ -24,4 +24,4 @@ int IteratedList::size() const {
 
 //all the elements are unique
 
-bool Iterat
+bool IteratedList::isEmpty() co
