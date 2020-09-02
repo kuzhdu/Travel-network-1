@@ -25,4 +25,9 @@ int IteratedList::size() const {
 //all the elements are unique
 
 bool IteratedList::isEmpty() const {
-    return this->s
+    return this->size() == 0;
+}
+
+
+
+ListItera
