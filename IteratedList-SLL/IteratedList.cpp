@@ -30,4 +30,4 @@ bool IteratedList::isEmpty() const {
 
 
 
-ListItera
+ListIterator IteratedList::firs
