@@ -31,4 +31,6 @@ bool IteratedList::isEmpty() const {
 
 
 ListIterator IteratedList::first() const {
-    this->it->fi
+    this->it->first();
+    return *this->it;
+}
