@@ -35,4 +35,4 @@ ListIterator IteratedList::first() const {
     return *this->it;
 }
 
-TElem IteratedL
+TElem IteratedList::getElement(ListIterato
