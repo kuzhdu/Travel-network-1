@@ -34,3 +34,5 @@ ListIterator IteratedList::first() const {
     this->it->first();
     return *this->it;
 }
+
+TElem IteratedL
