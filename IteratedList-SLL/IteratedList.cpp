@@ -35,4 +35,5 @@ ListIterator IteratedList::first() const {
     return *this->it;
 }
 
-TElem IteratedList::getElement(ListIterato
+TElem IteratedList::getElement(ListIterator pos) const {
+    re
