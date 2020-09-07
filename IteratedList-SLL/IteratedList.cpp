@@ -36,4 +36,4 @@ ListIterator IteratedList::first() const {
 }
 
 TElem IteratedList::getElement(ListIterator pos) const {
-    re
+    return pos.getCurrent(
