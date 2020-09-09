@@ -36,4 +36,7 @@ ListIterator IteratedList::first() const {
 }
 
 TElem IteratedList::getElement(ListIterator pos) const {
-    return pos.getCurrent(
+    return pos.getCurrent();
+}
+
+TElem IteratedList
