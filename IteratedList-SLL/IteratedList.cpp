@@ -39,4 +39,5 @@ TElem IteratedList::getElement(ListIterator pos) const {
     return pos.getCurrent();
 }
 
-TElem IteratedList::setElement(ListIterator pos
+TElem IteratedList::setElement(ListIterator pos, TElem e) {
+    Node *current = th
