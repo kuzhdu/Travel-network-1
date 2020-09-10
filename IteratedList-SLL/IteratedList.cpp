@@ -39,4 +39,4 @@ TElem IteratedList::getElement(ListIterator pos) const {
     return pos.getCurrent();
 }
 
-TElem IteratedList
+TElem IteratedList::setElement(ListIterator pos
