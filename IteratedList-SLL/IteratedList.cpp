@@ -42,4 +42,5 @@ TElem IteratedList::getElement(ListIterator pos) const {
 TElem IteratedList::setElement(ListIterator pos, TElem e) {
     Node *current = this->list.getHead();
     TElem aux;
-    while (current
+    while (current != nullptr)
+    {
