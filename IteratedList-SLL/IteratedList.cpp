@@ -44,3 +44,4 @@ TElem IteratedList::setElement(ListIterator pos, TElem e) {
     TElem aux;
     while (current != nullptr)
     {
+        if (current->getEle
