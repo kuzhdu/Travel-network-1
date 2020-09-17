@@ -46,4 +46,4 @@ TElem IteratedList::setElement(ListIterator pos, TElem e) {
     {
         if (current->getElement()== pos.getCurrent())
         {
-          
+            aux = current->getElem
