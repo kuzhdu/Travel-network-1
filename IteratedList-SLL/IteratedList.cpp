@@ -48,4 +48,5 @@ TElem IteratedList::setElement(ListIterator pos, TElem e) {
         {
             aux = current->getElement();
             current->setElem(e);
-       
+            return aux;
+  
