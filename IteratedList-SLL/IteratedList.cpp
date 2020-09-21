@@ -55,4 +55,4 @@ TElem IteratedList::setElement(ListIterator pos, TElem e) {
 
 }
 
-void Itera
+void IteratedList::addToEnd(TE
