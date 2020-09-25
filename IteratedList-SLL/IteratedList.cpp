@@ -57,4 +57,5 @@ TElem IteratedList::setElement(ListIterator pos, TElem e) {
 
 void IteratedList::addToEnd(TElem e) {
 
-    this->it->fi
+    this->it->first();
+    if (this-i
