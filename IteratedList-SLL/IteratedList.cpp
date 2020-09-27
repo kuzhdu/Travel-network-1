@@ -58,4 +58,4 @@ TElem IteratedList::setElement(ListIterator pos, TElem e) {
 void IteratedList::addToEnd(TElem e) {
 
     this->it->first();
-    if (this-i
+    if (this-it->valid() == nullptr)
