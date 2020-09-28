@@ -59,3 +59,4 @@ void IteratedList::addToEnd(TElem e) {
 
     this->it->first();
     if (this-it->valid() == nullptr)
+        this->list.insertFir
