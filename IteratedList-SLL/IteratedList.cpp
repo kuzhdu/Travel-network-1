@@ -62,4 +62,4 @@ void IteratedList::addToEnd(TElem e) {
         this->list.insertFirst(e);
     else {
 
-  
+        this->list.
