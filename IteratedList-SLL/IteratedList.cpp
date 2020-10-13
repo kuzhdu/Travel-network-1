@@ -67,4 +67,5 @@ void IteratedList::addToEnd(TElem e) {
 
         newIt.first();
         /*
-        while
+        while (newIt.valid())
+        {
