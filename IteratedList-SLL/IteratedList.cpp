@@ -65,4 +65,6 @@ void IteratedList::addToEnd(TElem e) {
         this->list.insertPosition(this->size(), e);
         ListIterator newIt = ListIterator(&this->list);
 
-        newIt.fir
+        newIt.first();
+        /*
+        while
