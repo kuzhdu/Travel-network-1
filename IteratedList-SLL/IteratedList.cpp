@@ -69,3 +69,4 @@ void IteratedList::addToEnd(TElem e) {
         /*
         while (newIt.valid())
         {
+            std::cou
