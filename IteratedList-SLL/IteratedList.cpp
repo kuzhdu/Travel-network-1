@@ -69,4 +69,4 @@ void IteratedList::addToEnd(TElem e) {
         /*
         while (newIt.valid())
         {
-            std::cou
+            std::cout << newIt.getCurrent();
