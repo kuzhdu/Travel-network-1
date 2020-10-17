@@ -70,4 +70,6 @@ void IteratedList::addToEnd(TElem e) {
         while (newIt.valid())
         {
             std::cout << newIt.getCurrent();
-            newIt.nex
+            newIt.next();
+        }
+        std::
