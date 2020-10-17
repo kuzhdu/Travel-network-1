@@ -72,4 +72,8 @@ void IteratedList::addToEnd(TElem e) {
             std::cout << newIt.getCurrent();
             newIt.next();
         }
-        std::
+        std::cout << '\n';*/
+    }
+}
+
+void 
