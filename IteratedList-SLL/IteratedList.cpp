@@ -76,4 +76,4 @@ void IteratedList::addToEnd(TElem e) {
     }
 }
 
-void 
+void IteratedList::addToPo
