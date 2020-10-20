@@ -76,4 +76,5 @@ void IteratedList::addToEnd(TElem e) {
     }
 }
 
-void IteratedList::addToPosition(ListIterator &pos
+void IteratedList::addToPosition(ListIterator &pos, TElem e) {
+    
