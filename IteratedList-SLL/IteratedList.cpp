@@ -78,4 +78,6 @@ void IteratedList::addToEnd(TElem e) {
 
 void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     Node *current = this->list.getHead();
-    
+    TElem aux;
+
+    while (current != nullp
