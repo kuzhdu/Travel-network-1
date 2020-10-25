@@ -80,4 +80,6 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     Node *current = this->list.getHead();
     TElem aux;
 
-    while (current != nullp
+    while (current != nullptr)
+    {
+        if (curre
