@@ -82,4 +82,4 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
 
     while (current != nullptr)
     {
-        if (curre
+        if (current->getElement() =
