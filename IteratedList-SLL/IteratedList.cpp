@@ -83,4 +83,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     while (current != nullptr)
     {
         if (current->getElement() == pos.getCurrent()) {
-            aux = current->getElemen
+            aux = current->getElement();
+            current
