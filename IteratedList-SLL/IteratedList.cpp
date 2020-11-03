@@ -86,4 +86,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
             aux = current->getElement();
             current->setElem(e);
             this->list.insertAfter(current, aux);
-    
+        }
+        cu
