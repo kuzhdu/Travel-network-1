@@ -90,4 +90,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
         current= current->getNext();
     }
     /*
-    int cn
+    int cnt = 0;
+    ListIterator 
