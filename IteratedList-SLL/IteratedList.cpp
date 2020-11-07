@@ -91,4 +91,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     }
     /*
     int cnt = 0;
-    ListIterator 
+    ListIterator *prev;
+    this->it->first();
