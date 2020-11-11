@@ -96,4 +96,4 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     while (this->it->valid())
     {
         if (this->it->getCurrent() == pos.getCurrent()) {
-   
+            this->lis
