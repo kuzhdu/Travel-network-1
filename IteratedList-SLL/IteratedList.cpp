@@ -98,3 +98,4 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
         if (this->it->getCurrent() == pos.getCurrent()) {
             this->list.insertPosition(cnt, e);
             //this->it->next();
+            break;
