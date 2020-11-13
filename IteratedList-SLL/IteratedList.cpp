@@ -99,3 +99,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
             this->list.insertPosition(cnt, e);
             //this->it->next();
             break;
+        }
+        
