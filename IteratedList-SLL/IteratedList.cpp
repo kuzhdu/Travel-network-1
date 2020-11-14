@@ -100,4 +100,4 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
             //this->it->next();
             break;
         }
-        
+        this->it->next();
