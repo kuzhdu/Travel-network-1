@@ -105,4 +105,4 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     }
 
     this->it->first();
-  
+    while (this->it->val
