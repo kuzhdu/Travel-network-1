@@ -109,4 +109,6 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     {
         if (this->it->getCurrent() == e)
             break;
-        this->i
+        this->it->next();
+    }
+    st
