@@ -112,4 +112,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
         this->it->next();
     }
     std::cout << this->it->getCurrent() << "curent";
-    th
+    this->it->first();
+    while(this
