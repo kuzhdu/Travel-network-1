@@ -116,4 +116,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     while(this->it->valid())
     {
         std::cout << this->it->getCurrent() << " ";
-        this
+        this->it->next();
+   
