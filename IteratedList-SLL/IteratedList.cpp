@@ -121,4 +121,5 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
     //std::cout << this->it->getCurrent() << ' ';*/
 }
 
-TElem IteratedList::remove(ListIterator &po
+TElem IteratedList::remove(ListIterator &pos) {
+    Node *pos
