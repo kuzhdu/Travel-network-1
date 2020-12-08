@@ -122,4 +122,7 @@ void IteratedList::addToPosition(ListIterator &pos, TElem e) {
 }
 
 TElem IteratedList::remove(ListIterator &pos) {
-    Node *pos
+    Node *position;
+    TElem  ret;
+
+ 
