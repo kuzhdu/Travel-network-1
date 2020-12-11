@@ -127,4 +127,5 @@ TElem IteratedList::remove(ListIterator &pos) {
 
     position = this->list.deleteElement(pos.getCurrent());
     ret = position->getElement();
- //
+ //   delete position;
+ 
