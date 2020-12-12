@@ -131,4 +131,4 @@ TElem IteratedList::remove(ListIterator &pos) {
     return ret;
 }
 
-ListIterat
+ListIterator IteratedList::sear
