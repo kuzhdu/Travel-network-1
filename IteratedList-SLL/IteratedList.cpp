@@ -131,4 +131,5 @@ TElem IteratedList::remove(ListIterator &pos) {
     return ret;
 }
 
-ListIterator IteratedList::sear
+ListIterator IteratedList::search(TElem e) const {
+  
