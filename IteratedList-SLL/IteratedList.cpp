@@ -133,3 +133,4 @@ TElem IteratedList::remove(ListIterator &pos) {
 
 ListIterator IteratedList::search(TElem e) const {
     this->it->first();
+    while (this->it-
