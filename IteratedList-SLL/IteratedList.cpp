@@ -136,4 +136,6 @@ ListIterator IteratedList::search(TElem e) const {
     while (this->it->valid()) {
         if (this->it->getCurrent() == e)
             return *this->it;
-        this->it
+        this->it->next();
+    }
+    retu
