@@ -141,4 +141,4 @@ ListIterator IteratedList::search(TElem e) const {
     return *this->it;
 }
 
-bool
+bool IteratedList::isUnique() {
