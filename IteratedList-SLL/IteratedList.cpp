@@ -138,4 +138,7 @@ ListIterator IteratedList::search(TElem e) const {
             return *this->it;
         this->it->next();
     }
-    retu
+    return *this->it;
+}
+
+bool
