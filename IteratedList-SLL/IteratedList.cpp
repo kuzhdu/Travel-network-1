@@ -144,3 +144,5 @@ ListIterator IteratedList::search(TElem e) const {
 bool IteratedList::isUnique() {
     std::set <int> frec;
     std::set<int>::iterator it;
+
+    Node *current
