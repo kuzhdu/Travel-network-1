@@ -146,4 +146,6 @@ bool IteratedList::isUnique() {
     std::set<int>::iterator it;
 
     Node *current = this->list.getHead();
-    while (curr
+    while (current != nullptr)
+    {
+        it = frec
