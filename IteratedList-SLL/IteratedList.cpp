@@ -148,4 +148,4 @@ bool IteratedList::isUnique() {
     Node *current = this->list.getHead();
     while (current != nullptr)
     {
-        it = frec
+        it = frec.find(current->getElement())
