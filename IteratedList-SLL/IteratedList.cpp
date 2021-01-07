@@ -150,4 +150,4 @@ bool IteratedList::isUnique() {
     {
         it = frec.find(current->getElement());
         if (it == frec.end())
-        
+            frec.insert(current->getE
