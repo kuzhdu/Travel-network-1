@@ -152,4 +152,5 @@ bool IteratedList::isUnique() {
         if (it == frec.end())
             frec.insert(current->getElement());
         else
-            
+            return false;
+ 
