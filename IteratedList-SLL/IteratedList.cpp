@@ -153,4 +153,4 @@ bool IteratedList::isUnique() {
             frec.insert(current->getElement());
         else
             return false;
- 
+        current = cu
