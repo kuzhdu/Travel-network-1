@@ -154,4 +154,9 @@ bool IteratedList::isUnique() {
         else
             return false;
         current = current->getNext();
-   
+    }
+    return true;
+
+}
+
+Itera
