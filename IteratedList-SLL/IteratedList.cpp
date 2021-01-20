@@ -159,4 +159,4 @@ bool IteratedList::isUnique() {
 
 }
 
-Itera
+IteratedList::~IteratedLis
