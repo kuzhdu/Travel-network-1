@@ -2,4 +2,4 @@
 // Created by Suciu Patrick on 2019-04-06.
 //
 
-#ifndef LIN
+#ifndef LINKED_LIST_ITERATEDLIS
