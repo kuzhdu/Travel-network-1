@@ -5,4 +5,7 @@
 #ifndef LINKED_LIST_ITERATEDLIST_H
 #define LINKED_LIST_ITERATEDLIST_H
 
-#include "ListIterator.h
+#include "ListIterator.h"
+typedef int TElem;
+
+clas
