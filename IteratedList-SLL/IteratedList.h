@@ -8,4 +8,6 @@
 #include "ListIterator.h"
 typedef int TElem;
 
-clas
+class IteratedList {
+
+pr
