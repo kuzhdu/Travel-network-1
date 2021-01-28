@@ -11,4 +11,4 @@ typedef int TElem;
 class IteratedList {
 
 private:
-    /*Re
+    /*Representation of the IteratedList
