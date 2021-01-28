@@ -10,4 +10,5 @@ typedef int TElem;
 
 class IteratedList {
 
-pr
+private:
+    /*Re
