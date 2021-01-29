@@ -13,4 +13,5 @@ class IteratedList {
 private:
     /*Representation of the IteratedList*/
     SLL list;
-   
+    ListIterator *it;
+publi
