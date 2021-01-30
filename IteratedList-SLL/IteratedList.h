@@ -14,4 +14,5 @@ private:
     /*Representation of the IteratedList*/
     SLL list;
     ListIterator *it;
-publi
+public:
+    // construct
