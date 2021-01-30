@@ -15,4 +15,7 @@ private:
     SLL list;
     ListIterator *it;
 public:
-    // construct
+    // constructor
+    IteratedList();
+
+    
