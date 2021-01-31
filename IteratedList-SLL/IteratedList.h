@@ -18,4 +18,4 @@ public:
     // constructor
     IteratedList();
 
-    // returns the 
+    // returns the number of elements fr
