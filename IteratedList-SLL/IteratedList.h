@@ -18,4 +18,5 @@ public:
     // constructor
     IteratedList();
 
-    // returns the number of elements fr
+    // returns the number of elements from the list
+    int size() 
