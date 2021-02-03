@@ -19,4 +19,5 @@ public:
     IteratedList();
 
     // returns the number of elements from the list
-    int size() 
+    int size() const;
+    bool isUni
