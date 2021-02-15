@@ -20,4 +20,5 @@ public:
 
     // returns the number of elements from the list
     int size() const;
-    bool isUni
+    bool isUnique();
+    // verifies if 
