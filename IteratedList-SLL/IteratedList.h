@@ -21,4 +21,5 @@ public:
     // returns the number of elements from the list
     int size() const;
     bool isUnique();
-    // verifies if 
+    // verifies if the list is empty
+    bool is
