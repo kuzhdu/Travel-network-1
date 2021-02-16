@@ -22,4 +22,6 @@ public:
     int size() const;
     bool isUnique();
     // verifies if the list is empty
-    bool is
+    bool isEmpty() const;
+
+    // retur
