@@ -24,4 +24,4 @@ public:
     // verifies if the list is empty
     bool isEmpty() const;
 
-    // retur
+    // returns the first position fro
