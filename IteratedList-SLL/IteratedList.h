@@ -24,4 +24,5 @@ public:
     // verifies if the list is empty
     bool isEmpty() const;
 
-    // returns the first position fro
+    // returns the first position from the list
+    ListIter
