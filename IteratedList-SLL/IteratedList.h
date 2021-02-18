@@ -25,4 +25,6 @@ public:
     bool isEmpty() const;
 
     // returns the first position from the list
-    ListIter
+    ListIterator first() const;
+
+  
