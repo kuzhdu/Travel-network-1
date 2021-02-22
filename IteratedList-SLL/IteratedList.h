@@ -28,4 +28,5 @@ public:
     ListIterator first() const;
 
     // returns the element from the given position
-    //throws an exception if the positio
+    //throws an exception if the position is not valid
+    TElem get
