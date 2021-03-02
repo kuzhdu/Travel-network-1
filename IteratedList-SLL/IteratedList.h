@@ -31,4 +31,4 @@ public:
     //throws an exception if the position is not valid
     TElem getElement(ListIterator pos) const;
 
-    // changes the element from the current positio
+    // changes the element from the current position to the given o
