@@ -33,3 +33,4 @@ public:
 
     // changes the element from the current position to the given one.
     //returns the old value from the position
+    //throws except
