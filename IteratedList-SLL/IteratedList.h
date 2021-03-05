@@ -32,4 +32,4 @@ public:
     TElem getElement(ListIterator pos) const;
 
     // changes the element from the current position to the given one.
-    //returns the old 
+    //returns the old value from the position
