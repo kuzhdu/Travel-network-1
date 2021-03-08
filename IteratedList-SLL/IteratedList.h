@@ -34,4 +34,4 @@ public:
     // changes the element from the current position to the given one.
     //returns the old value from the position
     //throws exception if the position is not valid
-    TElem setElement(
+    TElem setElement(ListIterator pos, TEl
