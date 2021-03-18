@@ -36,4 +36,4 @@ public:
     //throws exception if the position is not valid
     TElem setElement(ListIterator pos, TElem e);
 
-    // a
+    // adds a new element
