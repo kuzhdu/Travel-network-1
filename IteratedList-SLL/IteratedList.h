@@ -37,4 +37,6 @@ public:
     TElem setElement(ListIterator pos, TElem e);
 
     // adds a new element to the end of the list
-    void addToEnd(T
+    void addToEnd(TElem e);
+
+    //adds a 
