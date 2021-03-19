@@ -39,4 +39,4 @@ public:
     // adds a new element to the end of the list
     void addToEnd(TElem e);
 
-    //adds a 
+    //adds a new element to a giv
