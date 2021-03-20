@@ -40,4 +40,4 @@ public:
     void addToEnd(TElem e);
 
     //adds a new element to a given position
-    //after
+    //after addition, pos point
