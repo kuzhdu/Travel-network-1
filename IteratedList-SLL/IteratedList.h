@@ -44,4 +44,5 @@ public:
     //throws an exception if pos is not valid
     void addToPosition(ListIterator& pos, TElem e);
 
-    //removes the element from 
+    //removes the element from position pos
+    //
