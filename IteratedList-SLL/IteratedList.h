@@ -42,4 +42,6 @@ public:
     //adds a new element to a given position
     //after addition, pos points to the newly added element
     //throws an exception if pos is not valid
-    void addToPosition(ListIterato
+    void addToPosition(ListIterator& pos, TElem e);
+
+  
