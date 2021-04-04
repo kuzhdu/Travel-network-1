@@ -45,4 +45,4 @@ public:
     void addToPosition(ListIterator& pos, TElem e);
 
     //removes the element from position pos
-    //
+    //returns the removed 
