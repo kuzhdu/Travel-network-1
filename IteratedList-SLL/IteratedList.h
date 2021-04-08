@@ -46,4 +46,4 @@ public:
 
     //removes the element from position pos
     //returns the removed element
-    //after re
+    //after removal pos is positioned on the next eleme
