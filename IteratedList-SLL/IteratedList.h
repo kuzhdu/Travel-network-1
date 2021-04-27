@@ -46,4 +46,4 @@ public:
 
     //removes the element from position pos
     //returns the removed element
-    //after removal pos is positioned on the next element (the one after the removed one) or it is inval
+    //after removal pos is positioned on the next element (the one after the removed one) or it is invalid if the last element 
