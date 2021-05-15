@@ -50,4 +50,4 @@ public:
     //arunca exceptia daca poz nu e valid
     TElem remove(ListIterator& pos);
 
-    /
+    // searches for the first
