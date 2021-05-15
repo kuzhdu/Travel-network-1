@@ -51,4 +51,4 @@ public:
     TElem remove(ListIterator& pos);
 
     // searches for the first occurrance of an element
-    //returns an i
+    //returns an iterator that points to th
