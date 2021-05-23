@@ -52,3 +52,4 @@ public:
 
     // searches for the first occurrance of an element
     //returns an iterator that points to the element, if it appears in the list, or an invalid iterator if the element is not in the list
+    ListIterator search(TElem
