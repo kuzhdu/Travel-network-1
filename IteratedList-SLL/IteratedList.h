@@ -60,4 +60,4 @@ public:
 };
 
 
-#endif //LINKED_LIST_
+#endif //LINKED_LIST_ITERATEDLIST_H
