@@ -5,4 +5,4 @@
 #include "ListIterator.h"
 #include "IteratedList.h"
 
-L
+ListIterator::ListIterator(const 
