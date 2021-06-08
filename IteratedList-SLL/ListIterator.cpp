@@ -5,4 +5,6 @@
 #include "ListIterator.h"
 #include "IteratedList.h"
 
-ListIterator::ListIterator(const 
+ListIterator::ListIterator(const SLL *list)
+{
+ 
