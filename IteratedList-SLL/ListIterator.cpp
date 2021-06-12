@@ -7,4 +7,4 @@
 
 ListIterator::ListIterator(const SLL *list)
 {
- 
+    this->list = li
