@@ -8,4 +8,7 @@
 ListIterator::ListIterator(const SLL *list)
 {
     this->list = list;
-    this->current = li
+    this->current = list->getHead();
+}
+
+void
