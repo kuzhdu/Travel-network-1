@@ -11,4 +11,6 @@ ListIterator::ListIterator(const SLL *list)
     this->current = list->getHead();
 }
 
-void ListIterator::first(
+void ListIterator::first()
+{
+    this->curr
