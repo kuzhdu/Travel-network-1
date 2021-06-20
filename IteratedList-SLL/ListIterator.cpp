@@ -18,4 +18,4 @@ void ListIterator::first()
 
 bool ListIterator::valid() const
 {
- 
+    if (this->current == nullp
