@@ -13,4 +13,7 @@ ListIterator::ListIterator(const SLL *list)
 
 void ListIterator::first()
 {
-    this->current = this->list->getHe
+    this->current = this->list->getHead();
+}
+
+bool ListIterato
