@@ -13,4 +13,4 @@ ListIterator::ListIterator(const SLL *list)
 
 void ListIterator::first()
 {
-    this->curr
+    this->current = this->list->getHe
