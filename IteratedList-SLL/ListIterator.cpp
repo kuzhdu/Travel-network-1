@@ -16,4 +16,6 @@ void ListIterator::first()
     this->current = this->list->getHead();
 }
 
-bool ListIterato
+bool ListIterator::valid() const
+{
+ 
