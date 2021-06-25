@@ -20,4 +20,7 @@ bool ListIterator::valid() const
 {
     if (this->current == nullptr)
         return false;
- 
+    return true;
+}
+
+TElem Lis
