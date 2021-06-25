@@ -18,4 +18,6 @@ void ListIterator::first()
 
 bool ListIterator::valid() const
 {
-    if (this->current == nullp
+    if (this->current == nullptr)
+        return false;
+ 
