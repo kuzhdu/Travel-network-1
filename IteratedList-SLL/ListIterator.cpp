@@ -23,4 +23,4 @@ bool ListIterator::valid() const
     return true;
 }
 
-TElem Lis
+TElem ListIterator::getCurrent() con
