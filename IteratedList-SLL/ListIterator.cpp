@@ -23,4 +23,6 @@ bool ListIterator::valid() const
     return true;
 }
 
-TElem ListIterator::getCurrent() con
+TElem ListIterator::getCurrent() const
+{
+    if (this->vali
