@@ -26,4 +26,4 @@ bool ListIterator::valid() const
 TElem ListIterator::getCurrent() const
 {
     if (this->valid()) {
-        return this->curre
+        return this->current->getElement();
