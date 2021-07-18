@@ -27,3 +27,5 @@ TElem ListIterator::getCurrent() const
 {
     if (this->valid()) {
         return this->current->getElement();
+    }
+    throw 
