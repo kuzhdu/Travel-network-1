@@ -31,4 +31,6 @@ TElem ListIterator::getCurrent() const
     throw std::exception();
 }
 
-void List
+void ListIterator::next()
+{
+  
