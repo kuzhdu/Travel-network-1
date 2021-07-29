@@ -35,4 +35,4 @@ void ListIterator::next()
 {
     if (!this->valid())
         throw std::exception();
- 
+    this->current = 
