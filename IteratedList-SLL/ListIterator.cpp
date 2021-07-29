@@ -33,4 +33,5 @@ TElem ListIterator::getCurrent() const
 
 void ListIterator::next()
 {
-    if (!this->valid()
+    if (!this->valid())
+        throw std::ex
