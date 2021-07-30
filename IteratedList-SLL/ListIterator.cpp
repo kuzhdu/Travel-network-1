@@ -38,4 +38,6 @@ void ListIterator::next()
     this->current = this->current->getNext();
 }
 
-ListIterator::~ListItera
+ListIterator::~ListIterator()
+{
+}
