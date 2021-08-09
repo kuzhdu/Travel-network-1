@@ -8,3 +8,7 @@
 #include "SLL.h"
 
 class SortedBag;
+
+class ListIterator
+{
+pri
