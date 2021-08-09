@@ -5,4 +5,6 @@
 #ifndef LINKED_LIST_ListIterator_H
 #define LINKED_LIST_ListIterator_H
 
-#include "SLL
+#include "SLL.h"
+
+class SortedBag;
