@@ -12,4 +12,5 @@ class SortedBag;
 class ListIterator
 {
 private:
-    const SLL 
+    const SLL *list;
+    Node *
