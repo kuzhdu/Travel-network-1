@@ -13,4 +13,6 @@ class ListIterator
 {
 private:
     const SLL *list;
-    Node *
+    Node *current;
+public:
+    
