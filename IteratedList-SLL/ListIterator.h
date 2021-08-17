@@ -15,4 +15,5 @@ private:
     const SLL *list;
     Node *current;
 public:
-    
+    //constructor
+    ListI
