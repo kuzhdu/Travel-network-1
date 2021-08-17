@@ -16,4 +16,6 @@ private:
     Node *current;
 public:
     //constructor
-    ListIterator(const SLL *li
+    ListIterator(const SLL *list);
+
+    void f
