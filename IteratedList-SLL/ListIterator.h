@@ -18,4 +18,6 @@ public:
     //constructor
     ListIterator(const SLL *list);
 
-    void f
+    void first();
+
+    //c
