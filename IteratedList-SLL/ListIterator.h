@@ -20,4 +20,4 @@ public:
 
     void first();
 
-    //c
+    //checks if the iterat
