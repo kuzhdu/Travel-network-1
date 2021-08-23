@@ -21,4 +21,6 @@ public:
     void first();
 
     //checks if the iterator is in a valid position
-    bool valid() const
+    bool valid() const;
+
+    //returns t
