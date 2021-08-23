@@ -20,4 +20,4 @@ public:
 
     void first();
 
-    //checks if the iterat
+    //checks if the iterator is in a valid position
