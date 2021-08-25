@@ -24,4 +24,4 @@ public:
     bool valid() const;
 
     //returns the value of the current element
-    /
+    //throws an exception if the 
