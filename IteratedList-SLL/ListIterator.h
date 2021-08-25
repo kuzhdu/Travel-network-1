@@ -23,4 +23,4 @@ public:
     //checks if the iterator is in a valid position
     bool valid() const;
 
-    //returns t
+    //returns the value of the curre
