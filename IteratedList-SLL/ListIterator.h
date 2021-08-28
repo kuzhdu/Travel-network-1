@@ -25,4 +25,6 @@ public:
 
     //returns the value of the current element
     //throws an exception if the current position is invalid
-    TElem 
+    TElem getCurrent() const;
+
+    //
