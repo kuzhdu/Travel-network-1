@@ -27,4 +27,4 @@ public:
     //throws an exception if the current position is invalid
     TElem getCurrent() const;
 
-    //
+    //if the current position is v
