@@ -28,4 +28,5 @@ public:
     TElem getCurrent() const;
 
     //if the current position is valid, sets the next element as current
-    //throws an except
+    //throws an exception otherwise
+    vo
