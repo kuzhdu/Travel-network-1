@@ -29,4 +29,7 @@ public:
 
     //if the current position is valid, sets the next element as current
     //throws an exception otherwise
-    vo
+    void next();
+
+    //destructor
+ 
