@@ -27,4 +27,5 @@ public:
     //throws an exception if the current position is invalid
     TElem getCurrent() const;
 
-    //if the current position is valid, sets the next e
+    //if the current position is valid, sets the next element as current
+    //
