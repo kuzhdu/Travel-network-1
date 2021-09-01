@@ -33,4 +33,8 @@ public:
 
     //destructor
     ~ListIterator();
-}
+};
+
+
+
+#endif //LINKED_LIST_
