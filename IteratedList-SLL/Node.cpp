@@ -3,3 +3,7 @@
 //
 
 #include "Node.h"
+
+Node::Node(TElem e)
+{
+    th
