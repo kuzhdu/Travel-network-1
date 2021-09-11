@@ -11,3 +11,7 @@ Node::Node(TElem e)
 }
 
 TElem Node::getElement() const
+{
+    return this->e;
+}
+
