@@ -6,4 +6,5 @@
 
 Node::Node(TElem e)
 {
-    th
+    this->e = e;
+    this-
