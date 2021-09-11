@@ -10,4 +10,4 @@ Node::Node(TElem e)
     this->next = nullptr;
 }
 
-TEle
+TElem Node::getElement() const
