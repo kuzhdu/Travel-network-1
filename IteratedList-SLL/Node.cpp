@@ -7,4 +7,7 @@
 Node::Node(TElem e)
 {
     this->e = e;
-    this-
+    this->next = nullptr;
+}
+
+TEle
