@@ -15,4 +15,5 @@ TElem Node::getElement() const
     return this->e;
 }
 
-void Node::setElem(TElem
+void Node::setElem(TElem e){
+    this->e = e;
