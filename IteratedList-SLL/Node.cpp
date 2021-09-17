@@ -17,3 +17,6 @@ TElem Node::getElement() const
 
 void Node::setElem(TElem e){
     this->e = e;
+}
+
+Node *Node::getNext() 
