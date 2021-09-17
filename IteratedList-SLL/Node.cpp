@@ -21,4 +21,7 @@ void Node::setElem(TElem e){
 
 Node *Node::getNext() const
 {
-    retu
+    return this->next;
+}
+
+void No
