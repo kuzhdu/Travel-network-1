@@ -26,4 +26,7 @@ Node *Node::getNext() const
 
 void Node::setNext(Node *next)
 {
-    this->
+    this->next = next;
+}
+
+Node::~N
