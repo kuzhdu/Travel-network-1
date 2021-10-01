@@ -29,4 +29,6 @@ void Node::setNext(Node *next)
     this->next = next;
 }
 
-Node::~N
+Node::~Node()
+{
+}
