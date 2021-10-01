@@ -14,3 +14,21 @@ class Node
 {
 private:
     TElem e;
+    Node *next;
+public:
+    //constructor
+    Node(TElem e);
+    void setElem(TElem e);
+
+    //returns the value contained in the node
+    TElem getElement() const;
+
+    //returns the address of the next node
+    Node *getNext() const;
+
+    //change next element
+    void setNext(Node *next);
+
+    //destructor
+    ~Node();
+};
