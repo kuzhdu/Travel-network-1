@@ -65,3 +65,28 @@ void SLL::insertPosition(int position, TElem e)
         currentPosition++;
         current = current->getNext();
     }
+    if (current)
+        this->insertAfter(current, e);
+    else
+        throw std::invalid_argument("Index out of range.");
+}
+
+Node *SLL::getNode(int position) const
+{
+    Node *current;
+    int currentPosition;
+
+    current = this->head;
+    if (position < 1)
+        throw std::invalid_argument("Index out of range.");
+    if (position == 1)
+        return current;
+    currentPosition = 1;
+    while (current && currentPosition < position - 1)
+    {
+        currentPosition++;
+        current = current->getNext();
+    }
+    if (current)
+        return current;
+    else
