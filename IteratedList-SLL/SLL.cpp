@@ -39,3 +39,29 @@ void SLL::insertFirst(TElem e)
 void SLL::insertAfter(Node *current, TElem e)
 {
     Node *newNode;
+
+    newNode = new Node(e);
+
+    newNode->setNext(current->getNext());
+    current->setNext(newNode);
+}
+
+void SLL::insertPosition(int position, TElem e)
+{
+    Node *current;
+    int currentPosition;
+
+    if (position < 0)
+        throw std::invalid_argument("Index out ooof range.");
+    if (position == 0)
+    {
+        this->insertFirst(e);
+        return;
+    }
+    currentPosition = 1;
+    current = this->head;
+    while (current && currentPosition < position)
+    {
+        currentPosition++;
+        current = current->getNext();
+    }
