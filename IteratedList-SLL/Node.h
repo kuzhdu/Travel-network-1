@@ -32,3 +32,7 @@ public:
     //destructor
     ~Node();
 };
+
+
+
+#endif //LINKED_LIST_NODE_H
