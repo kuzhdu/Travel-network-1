@@ -19,3 +19,23 @@ SLL::SLL(Node *head)
 bool SLL::search(TElem e) const
 {
     Node *current = this->head;
+
+    if (current == nullptr)
+        return false;
+    while (current->getNext() != nullptr && current->getElement() != e)
+        current = current->getNext();
+    return current->getElement() == e;
+}
+
+void SLL::insertFirst(TElem e)
+{
+    Node *newNode;
+    newNode = new Node(e);
+
+    newNode->setNext(this->head);
+    this->head = newNode;
+}
+
+void SLL::insertAfter(Node *current, TElem e)
+{
+    Node *newNode;
