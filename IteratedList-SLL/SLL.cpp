@@ -90,3 +90,29 @@ Node *SLL::getNode(int position) const
     if (current)
         return current;
     else
+        throw std::invalid_argument("Index out of range.");
+}
+
+TElem SLL::getNodeElement(int position) const
+{
+    Node *current;
+    int currentPosition;
+
+    current = this->head;
+    currentPosition = 1;
+    if (position < 1)
+        throw std::invalid_argument("Index out of range.");
+    while (current && currentPosition < position - 1)
+    {
+        currentPosition++;
+        current = current->getNext();
+    }
+}
+
+Node* SLL::deleteElement(TElem e)
+{
+    Node *current, *prev;
+
+    current = this->head;
+    prev = nullptr;
+    while (current && current->getElement() != e)
