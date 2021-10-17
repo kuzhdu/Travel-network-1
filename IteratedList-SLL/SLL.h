@@ -1,1 +1,2 @@
-#prag
+#pragma once
+#include "Node.h"
