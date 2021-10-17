@@ -116,3 +116,28 @@ Node* SLL::deleteElement(TElem e)
     current = this->head;
     prev = nullptr;
     while (current && current->getElement() != e)
+    {
+        prev = current;
+        current = current->getNext();
+    }
+    if(prev == nullptr) {
+        this->head = nullptr;
+    }
+    else if (current != nullptr && current->getElement() == e)
+        prev->setNext(current->getNext());
+
+    return current;
+}
+
+Node *SLL::getHead() const
+{
+    return this->head;
+}
+
+ListIterator SLL::iterator() const
+{
+    return ListIterator(this);
+}
+
+SLL::~SLL()
+{
