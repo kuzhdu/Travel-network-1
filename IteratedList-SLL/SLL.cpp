@@ -141,3 +141,17 @@ ListIterator SLL::iterator() const
 
 SLL::~SLL()
 {
+    Node *current, *next;
+    int i;
+
+    i = 0;
+    current = this->head;
+    while (current)
+    {
+        next = current->getNext();
+        delete current;
+        current = nullptr;
+        current = next;
+    }
+    this->head = nullptr;
+}
