@@ -3,3 +3,7 @@
 
 class ListIterator;
 
+class SLL
+{
+private:
+    N
