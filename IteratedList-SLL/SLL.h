@@ -8,4 +8,4 @@ class SLL
 private:
     Node *head;
 public:
-    
+    //constructor with head 
