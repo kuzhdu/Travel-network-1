@@ -6,4 +6,6 @@ class ListIterator;
 class SLL
 {
 private:
-    N
+    Node *head;
+public:
+    
