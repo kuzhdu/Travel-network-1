@@ -9,4 +9,6 @@ private:
     Node *head;
 public:
     //constructor with head set to nullptr
- 
+    SLL();
+
+    //c
