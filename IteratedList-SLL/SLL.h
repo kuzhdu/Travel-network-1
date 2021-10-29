@@ -11,4 +11,4 @@ public:
     //constructor with head set to nullptr
     SLL();
 
-    //c
+    //constructor with hea
