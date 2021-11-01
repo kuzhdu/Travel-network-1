@@ -13,3 +13,5 @@ public:
 
     //constructor with head set to given node
     SLL(Node *head);
+
+    //searches for an elem
