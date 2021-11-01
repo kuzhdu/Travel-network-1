@@ -12,4 +12,4 @@ public:
     SLL();
 
     //constructor with head set to given node
- 
+    SLL(Node *head);
