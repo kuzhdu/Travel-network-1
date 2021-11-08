@@ -15,4 +15,6 @@ public:
     SLL(Node *head);
 
     //searches for an element, returns true if found, otherwise false
-    bool search(TElem e) con
+    bool search(TElem e) const;
+
+    //inserts an 
