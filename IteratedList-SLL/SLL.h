@@ -17,4 +17,4 @@ public:
     //searches for an element, returns true if found, otherwise false
     bool search(TElem e) const;
 
-    //inserts an 
+    //inserts an element to the beginning 
