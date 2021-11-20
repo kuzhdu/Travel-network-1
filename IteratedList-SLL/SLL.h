@@ -18,4 +18,4 @@ public:
     bool search(TElem e) const;
 
     //inserts an element to the beginning of the list
-    vo
+    void insertFirst
