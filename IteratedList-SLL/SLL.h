@@ -20,4 +20,4 @@ public:
     //inserts an element to the beginning of the list
     void insertFirst(TElem e);
 
-    //inserts an el
+    //inserts an element after a given 
