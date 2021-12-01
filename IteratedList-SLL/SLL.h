@@ -20,4 +20,5 @@ public:
     //inserts an element to the beginning of the list
     void insertFirst(TElem e);
 
-    //inserts an element after a given 
+    //inserts an element after a given node
+    void insertAfter(N
