@@ -21,4 +21,6 @@ public:
     void insertFirst(TElem e);
 
     //inserts an element after a given node
-    void insertAfter(Node *current, TE
+    void insertAfter(Node *current, TElem e);
+
+    //inserts
