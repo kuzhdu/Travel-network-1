@@ -24,4 +24,5 @@ public:
     void insertAfter(Node *current, TElem e);
 
     //inserts an element at a given position
-    //throws an exception if given position is i
+    //throws an exception if given position is invalid
+    void insertP
