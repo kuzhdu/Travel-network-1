@@ -23,4 +23,5 @@ public:
     //inserts an element after a given node
     void insertAfter(Node *current, TElem e);
 
-    //inserts an element at a given positi
+    //inserts an element at a given position
+    //throws an excepti
