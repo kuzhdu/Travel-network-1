@@ -25,4 +25,4 @@ public:
 
     //inserts an element at a given position
     //throws an exception if given position is invalid
-    void insertP
+    void insertPosition(int position,
