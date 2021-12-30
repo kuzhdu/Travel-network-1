@@ -27,4 +27,5 @@ public:
     //throws an exception if given position is invalid
     void insertPosition(int position, TElem elem);
 
-    //gets a node
+    //gets a node from a given position
+  
