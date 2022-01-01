@@ -28,4 +28,4 @@ public:
     void insertPosition(int position, TElem elem);
 
     //gets a node from a given position
-    //throws an exception
+    //throws an exception if given position is i
