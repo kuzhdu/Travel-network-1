@@ -29,4 +29,5 @@ public:
 
     //gets a node from a given position
     //throws an exception if given position is invalid
-    Node *get
+    Node *getNode(int position) const;
+
