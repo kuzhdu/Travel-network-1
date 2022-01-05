@@ -32,4 +32,5 @@ public:
     Node *getNode(int position) const;
 
     //gets info from node at a given postion
-    //throws an exception if given position
+    //throws an exception if given position is invalid
+    TElem getNo
