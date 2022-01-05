@@ -32,4 +32,4 @@ public:
     Node *getNode(int position) const;
 
     //gets info from node at a given postion
-    //throws 
+    //throws an exception if given position
