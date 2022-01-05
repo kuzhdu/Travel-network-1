@@ -33,4 +33,4 @@ public:
 
     //gets info from node at a given postion
     //throws an exception if given position is invalid
-    TElem getNo
+    TElem getNodeElement(int position) const
