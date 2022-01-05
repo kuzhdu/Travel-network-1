@@ -31,4 +31,5 @@ public:
     //throws an exception if given position is invalid
     Node *getNode(int position) const;
 
-    //gets info from
+    //gets info from node at a given postion
+    //throws 
