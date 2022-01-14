@@ -36,4 +36,4 @@ public:
     TElem getNodeElement(int position) const;
 
     //deletes a node containing a given info
-  
+    Node *deleteEleme
