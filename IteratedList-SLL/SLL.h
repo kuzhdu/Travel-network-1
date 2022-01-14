@@ -35,4 +35,5 @@ public:
     //throws an exception if given position is invalid
     TElem getNodeElement(int position) const;
 
-    //deletes a node conta
+    //deletes a node containing a given info
+  
