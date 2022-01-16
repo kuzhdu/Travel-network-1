@@ -38,4 +38,5 @@ public:
     //deletes a node containing a given info
     Node *deleteElement(TElem e);
 
-    //returns the first element of t
+    //returns the first element of the list
+    Node *ge
