@@ -38,4 +38,4 @@ public:
     //deletes a node containing a given info
     Node *deleteElement(TElem e);
 
-    //ret
+    //returns the first element of t
