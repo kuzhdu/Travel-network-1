@@ -39,4 +39,6 @@ public:
     Node *deleteElement(TElem e);
 
     //returns the first element of the list
-    Node *ge
+    Node *getHead() const;
+
+    //retur
