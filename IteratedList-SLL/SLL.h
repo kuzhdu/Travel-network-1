@@ -41,4 +41,5 @@ public:
     //returns the first element of the list
     Node *getHead() const;
 
-    //returns an iterator for
+    //returns an iterator for this list
+    ListIt
