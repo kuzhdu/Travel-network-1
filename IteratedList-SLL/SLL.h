@@ -41,4 +41,4 @@ public:
     //returns the first element of the list
     Node *getHead() const;
 
-    //retur
+    //returns an iterator for
