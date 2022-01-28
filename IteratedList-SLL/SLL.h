@@ -45,4 +45,6 @@ public:
     ListIterator iterator() const;
 
     //destructor
-   
+    ~SLL();
+};
+
