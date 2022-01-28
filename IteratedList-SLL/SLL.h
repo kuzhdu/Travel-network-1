@@ -42,4 +42,6 @@ public:
     Node *getHead() const;
 
     //returns an iterator for this list
-    ListIt
+    ListIterator iterator() const;
+
+ 
