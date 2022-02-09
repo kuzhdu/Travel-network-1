@@ -49,3 +49,28 @@ void testAllExtended2() {
     assert(it3.valid());
     assert(it3.getCurrent() == 50);
     TElem old = list.setElement(it3, 51);
+    assert(old == 50);
+    assert(it3.getCurrent() == it2.getCurrent());
+    ListIterator it3_2 = list.search(50);
+    assert(!it3_2.valid());
+    try {
+        list.addToPosition(it3_2, 0);
+        assert(false);
+    }
+    catch (std::exception &) {
+        assert(true);
+    }
+    ListIterator it4 = list.search(99);
+    assert(it4.getCurrent() == 99);
+    it4.next();
+    assert(!it4.valid());
+    try {
+        it4.next();
+        assert(false);
+    }
+    catch (std::exception &) {
+        assert(true);
+    }
+
+    ListIterator it3_3 = list.search(51);
+    list.addToPosition(it3_3, 150);
