@@ -74,3 +74,26 @@ void testAllExtended2() {
 
     ListIterator it3_3 = list.search(51);
     list.addToPosition(it3_3, 150);
+    assert(it3.getCurrent() == 150);
+    ListIterator it5 = list.search(51);
+    list.setElement(it5, 50);
+    assert(list.getElement(it5) == 50);
+    TElem old_2 = list.remove(it3_3);
+    assert(old_2 == 150);
+
+
+    try {
+        list.setElement(it, 0);
+        assert(false);
+    }
+    catch (std::exception &) {
+        assert(true);
+    }
+    try {
+        list.remove(it);
+        assert(false);
+    }
+    catch (std::exception &) {
+        assert(true);
+    }
+    std::cout << "ALL TESTS PASSED!";
