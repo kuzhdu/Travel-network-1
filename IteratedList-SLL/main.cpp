@@ -150,3 +150,10 @@ void testsPatrick(){
         start = start->getNext();
     }
 }
+
+int main() {
+    shortTest();
+    //testsPatrick();
+    testAllExtended2();
+    return 0;
+}
