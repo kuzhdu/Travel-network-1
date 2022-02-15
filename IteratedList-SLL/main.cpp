@@ -122,3 +122,31 @@ void shortTest()
 
     assert(list.remove(it) == 1);
     assert(list.size() == 0);
+    assert(list.isEmpty());
+    std::cout << "passed short tests\n";
+}
+
+void testsPatrick(){
+
+    SLL a;
+    a.insertFirst(3);
+    a.insertFirst(4);
+    a.insertFirst(5);
+    a.insertFirst(12);
+    a.insertFirst(12);
+    a.insertFirst(12);
+    a.insertFirst(12);
+
+    Node *start = a.getHead();
+    ListIterator *it = new ListIterator(&a);
+
+    while(it->valid())
+    {
+        it->next();
+    }
+
+    while (start != nullptr)
+    {
+        start = start->getNext();
+    }
+}
