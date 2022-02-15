@@ -97,3 +97,28 @@ void testAllExtended2() {
         assert(true);
     }
     std::cout << "ALL TESTS PASSED!";
+}
+
+void shortTest()
+{
+    std::cout << "\n";
+    IteratedList list = IteratedList();
+    assert(list.size() == 0);
+    assert(list.isEmpty());
+
+    list.addToEnd(1);
+    assert(list.size() == 1);
+    assert(!list.isEmpty());
+    assert(list.isUnique());
+    ListIterator it = list.search(1);
+    assert(it.valid());
+    assert(it.getCurrent() == 1);
+
+    it.next();
+    assert(!it.valid());
+    it.first();
+    assert(it.valid());
+    assert(it.getCurrent() == 1);
+
+    assert(list.remove(it) == 1);
+    assert(list.size() == 0);
