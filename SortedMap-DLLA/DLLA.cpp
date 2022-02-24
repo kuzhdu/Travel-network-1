@@ -5,4 +5,5 @@
 #include "DLLAIterator.h"
 
 DLLA::DLLA() {
-    this->capacity = 1
+    this->capacity = 1000;
+    this->
