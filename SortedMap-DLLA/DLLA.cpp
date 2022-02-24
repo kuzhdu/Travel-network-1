@@ -4,4 +4,5 @@
 
 #include "DLLAIterator.h"
 
-DLLA::
+DLLA::DLLA() {
+    this->capacity = 1
