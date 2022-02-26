@@ -6,4 +6,5 @@
 
 DLLA::DLLA() {
     this->capacity = 1000;
-    this->
+    this->length = 0;
+    this-
