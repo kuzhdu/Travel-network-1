@@ -7,4 +7,5 @@
 DLLA::DLLA() {
     this->capacity = 1000;
     this->length = 0;
-    this-
+    this->head = -1;
+    this->tail
