@@ -9,4 +9,5 @@ DLLA::DLLA() {
     this->length = 0;
     this->head = -1;
     this->tail = -1;
-    this->firstE
+    this->firstEmpty = 0;
+    this->nodes = new 
