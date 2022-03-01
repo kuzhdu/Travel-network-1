@@ -10,4 +10,5 @@ DLLA::DLLA() {
     this->head = -1;
     this->tail = -1;
     this->firstEmpty = 0;
-    this->nodes = new 
+    this->nodes = new DLLANode[1000];
+    for 
