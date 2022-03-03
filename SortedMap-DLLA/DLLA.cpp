@@ -11,4 +11,5 @@ DLLA::DLLA() {
     this->tail = -1;
     this->firstEmpty = 0;
     this->nodes = new DLLANode[1000];
-    for (int i = 0;i < this
+    for (int i = 0;i < this->capacity;i++)
+    
