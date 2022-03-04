@@ -13,4 +13,5 @@ DLLA::DLLA() {
     this->nodes = new DLLANode[1000];
     for (int i = 0;i < this->capacity;i++)
     {
-        if (i !
+        if (i != 0)
+            this->n
