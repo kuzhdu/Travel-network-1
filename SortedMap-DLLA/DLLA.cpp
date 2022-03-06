@@ -14,4 +14,4 @@ DLLA::DLLA() {
     for (int i = 0;i < this->capacity;i++)
     {
         if (i != 0)
-            this->n
+            this->nodes[i].prev = i - 1;
