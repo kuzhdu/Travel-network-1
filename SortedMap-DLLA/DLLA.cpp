@@ -16,4 +16,5 @@ DLLA::DLLA() {
         if (i != 0)
             this->nodes[i].prev = i - 1;
         else
-            this->nod
+            this->nodes[i].prev = -1;
+        if (i != 
