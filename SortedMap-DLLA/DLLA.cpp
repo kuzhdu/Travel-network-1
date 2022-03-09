@@ -18,4 +18,4 @@ DLLA::DLLA() {
         else
             this->nodes[i].prev = -1;
         if (i != this->capacity - 1)
-  
+            this->nodes[i].
