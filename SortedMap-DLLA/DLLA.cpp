@@ -18,4 +18,5 @@ DLLA::DLLA() {
         else
             this->nodes[i].prev = -1;
         if (i != this->capacity - 1)
-            this->nodes[i].
+            this->nodes[i].next = i + 1;
+        el
