@@ -25,4 +25,5 @@ DLLA::DLLA() {
 }
 
 //Complexity: O(n)
-void D
+void DLLA::resize() {
+    int newC
