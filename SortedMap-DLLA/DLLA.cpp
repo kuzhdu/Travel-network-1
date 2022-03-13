@@ -26,4 +26,5 @@ DLLA::DLLA() {
 
 //Complexity: O(n)
 void DLLA::resize() {
-    int newCapacity = this-
+    int newCapacity = this->capacity * 2;
+    DLLANo
