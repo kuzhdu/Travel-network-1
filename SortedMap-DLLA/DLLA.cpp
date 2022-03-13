@@ -27,4 +27,6 @@ DLLA::DLLA() {
 //Complexity: O(n)
 void DLLA::resize() {
     int newCapacity = this->capacity * 2;
-    DLLANode *toDelete = 
+    DLLANode *toDelete = this->nodes;
+
+    th
