@@ -29,4 +29,5 @@ void DLLA::resize() {
     int newCapacity = this->capacity * 2;
     DLLANode *toDelete = this->nodes;
 
-    this->nodes = new DLL
+    this->nodes = new DLLANode[newCapacity];
+    memcp
