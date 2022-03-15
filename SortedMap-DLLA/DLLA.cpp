@@ -29,4 +29,4 @@ void DLLA::resize() {
     int newCapacity = this->capacity * 2;
     DLLANode *toDelete = this->nodes;
 
-    th
+    this->nodes = new DLL
