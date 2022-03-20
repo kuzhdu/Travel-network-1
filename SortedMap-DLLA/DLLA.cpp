@@ -30,4 +30,4 @@ void DLLA::resize() {
     DLLANode *toDelete = this->nodes;
 
     this->nodes = new DLLANode[newCapacity];
-    memcpy(this->nodes, toDelete, siz
+    memcpy(this->nodes, toDelete, sizeof(DLLANode) * this->capac
