@@ -33,4 +33,5 @@ void DLLA::resize() {
     memcpy(this->nodes, toDelete, sizeof(DLLANode) * this->capacity);
     this->firstEmpty = this->capacity;
     this->capacity = newCapacity;
-    for (int i = this->firstEmpty;i < this->
+    for (int i = this->firstEmpty;i < this->capacity;i++) {
+   
