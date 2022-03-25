@@ -35,4 +35,6 @@ void DLLA::resize() {
     this->capacity = newCapacity;
     for (int i = this->firstEmpty;i < this->capacity;i++) {
         if (i != 0)
-            this->nodes[i].prev 
+            this->nodes[i].prev = i - 1;
+        else
+ 
