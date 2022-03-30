@@ -42,4 +42,8 @@ void DLLA::resize() {
             this->nodes[i].next = i + 1;
         else
             this->nodes[i].next = -1;
-  
+    }
+}
+
+//theta(1)
+int DLL
