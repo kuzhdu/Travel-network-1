@@ -46,4 +46,5 @@ void DLLA::resize() {
 }
 
 //theta(1)
-int DLL
+int DLLA::allocate() {
+    int pos
