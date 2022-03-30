@@ -47,4 +47,7 @@ void DLLA::resize() {
 
 //theta(1)
 int DLLA::allocate() {
-    int pos
+    int position;
+    int newEmpty;
+
+    t
