@@ -51,4 +51,5 @@ int DLLA::allocate() {
     int newEmpty;
 
     this->length++;
-    if (this->fir
+    if (this->firstEmpty == -1)
+        this
