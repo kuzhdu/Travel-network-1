@@ -50,4 +50,5 @@ int DLLA::allocate() {
     int position;
     int newEmpty;
 
-    t
+    this->length++;
+    if (this->fir
