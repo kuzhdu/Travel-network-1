@@ -53,4 +53,4 @@ int DLLA::allocate() {
     this->length++;
     if (this->firstEmpty == -1)
         this->resize();
-    position
+    position = this->firstEmpt
