@@ -58,4 +58,5 @@ int DLLA::allocate() {
     if (newEmpty == -1)
         this->nodes[this->firstEmpty].prev = -1;
     this->nodes[this->firstEmpty].next = -1;
-    this->nodes[this->firstEmpty].prev =
+    this->nodes[this->firstEmpty].prev = -1;
+    this->firstE
