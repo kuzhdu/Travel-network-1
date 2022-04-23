@@ -60,4 +60,7 @@ int DLLA::allocate() {
     this->nodes[this->firstEmpty].next = -1;
     this->nodes[this->firstEmpty].prev = -1;
     this->firstEmpty = newEmpty;
-    r
+    return position;
+}
+
+//co
