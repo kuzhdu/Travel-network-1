@@ -63,4 +63,5 @@ int DLLA::allocate() {
     return position;
 }
 
-//co
+//complexity theta(1)
+voi
