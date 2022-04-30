@@ -64,4 +64,7 @@ int DLLA::allocate() {
 }
 
 //complexity theta(1)
-void DLLA::free(int po
+void DLLA::free(int position) {
+    int prev, next;
+
+ 
