@@ -67,4 +67,4 @@ int DLLA::allocate() {
 void DLLA::free(int position) {
     int prev, next;
 
- 
+    prev = this->nodes[position]
