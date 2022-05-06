@@ -68,4 +68,5 @@ void DLLA::free(int position) {
     int prev, next;
 
     prev = this->nodes[position].prev;
-    next = this->nodes[position].nex
+    next = this->nodes[position].next;
+    if (this->head =
