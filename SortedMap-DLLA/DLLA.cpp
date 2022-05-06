@@ -69,4 +69,4 @@ void DLLA::free(int position) {
 
     prev = this->nodes[position].prev;
     next = this->nodes[position].next;
-    if (this->head =
+    if (this->head == position)//daca e primul elem
