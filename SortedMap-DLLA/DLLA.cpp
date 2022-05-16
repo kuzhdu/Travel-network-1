@@ -76,4 +76,5 @@ void DLLA::free(int position) {
     this->nodes[position].next = this->firstEmpty;
     this->nodes[position].prev = -1;
     if (this->firstEmpty != -1)
-        this->nodes[firstEmpty].prev = p
+        this->nodes[firstEmpty].prev = position;
+    this->firstE
