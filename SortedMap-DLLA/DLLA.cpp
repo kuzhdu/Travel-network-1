@@ -82,4 +82,4 @@ void DLLA::free(int position) {
 }
 
 //Complexity: O(n)
-voi
+void DLLA::insertEleme
