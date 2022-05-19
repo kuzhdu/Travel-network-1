@@ -82,4 +82,5 @@ void DLLA::free(int position) {
 }
 
 //Complexity: O(n)
-void DLLA::insertElement(TElem elem, int positi
+void DLLA::insertElement(TElem elem, int position) {
+    int newPos = this->allocate
