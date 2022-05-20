@@ -84,4 +84,5 @@ void DLLA::free(int position) {
 //Complexity: O(n)
 void DLLA::insertElement(TElem elem, int position) {
     int newPos = this->allocate();
-    this->nodes[newPo
+    this->nodes[newPos].elem = elem;
+    if (p
