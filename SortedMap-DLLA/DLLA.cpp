@@ -85,4 +85,5 @@ void DLLA::free(int position) {
 void DLLA::insertElement(TElem elem, int position) {
     int newPos = this->allocate();
     this->nodes[newPos].elem = elem;
-    if (p
+    if (position == 0) {
+  
