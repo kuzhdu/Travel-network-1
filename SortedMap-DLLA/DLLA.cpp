@@ -86,4 +86,5 @@ void DLLA::insertElement(TElem elem, int position) {
     int newPos = this->allocate();
     this->nodes[newPos].elem = elem;
     if (position == 0) {
-        if (this->he
+        if (this->head == -1) {
+           
