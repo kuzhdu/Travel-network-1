@@ -95,4 +95,6 @@ void DLLA::insertElement(TElem elem, int position) {
             this->nodes[this->head].prev = newPos;
             this->head = newPos;
         }
-   
+    }
+    else {
+     
