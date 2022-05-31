@@ -97,4 +97,4 @@ void DLLA::insertElement(TElem elem, int position) {
         }
     }
     else {
-     
+        int nodC = this->head
