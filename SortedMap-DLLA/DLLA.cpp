@@ -99,4 +99,4 @@ void DLLA::insertElement(TElem elem, int position) {
     else {
         int nodC = this->head;
         int pozC = 0;
-  
+        while (nodC != 
