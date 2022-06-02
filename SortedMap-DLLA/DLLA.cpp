@@ -101,4 +101,6 @@ void DLLA::insertElement(TElem elem, int position) {
         int pozC = 0;
         while (nodC != -1 && pozC < position - 1) {
             nodC = this->nodes[nodC].next;
-    
+            pozC++;
+        }
+        i
