@@ -103,4 +103,5 @@ void DLLA::insertElement(TElem elem, int position) {
             nodC = this->nodes[nodC].next;
             pozC++;
         }
-        i
+        if (nodC != -1) {
+  
