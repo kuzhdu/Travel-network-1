@@ -104,4 +104,4 @@ void DLLA::insertElement(TElem elem, int position) {
             pozC++;
         }
         if (nodC != -1) {
-  
+            int nodNext = 
