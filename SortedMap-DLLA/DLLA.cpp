@@ -106,4 +106,5 @@ void DLLA::insertElement(TElem elem, int position) {
         if (nodC != -1) {
             int nodNext = this->nodes[nodC].next;
             this->nodes[newPos].next = nodNext;
-            t
+            this->nodes[newPos].prev = nodC;
+   
