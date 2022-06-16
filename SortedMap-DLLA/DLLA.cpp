@@ -112,4 +112,8 @@ void DLLA::insertElement(TElem elem, int position) {
                 this->tail = newPos;
             else
                 this->nodes[nodNext].prev = newPos;
-   
+        }
+    }
+}
+
+DLL
