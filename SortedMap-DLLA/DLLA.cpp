@@ -116,4 +116,4 @@ void DLLA::insertElement(TElem elem, int position) {
     }
 }
 
-DLL
+DLLAIterator DLLA::iter
