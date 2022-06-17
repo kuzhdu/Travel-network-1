@@ -116,4 +116,5 @@ void DLLA::insertElement(TElem elem, int position) {
     }
 }
 
-DLLAIterator DLLA::iter
+DLLAIterator DLLA::iterator() {
+    return DLLAIter
