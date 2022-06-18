@@ -117,4 +117,6 @@ void DLLA::insertElement(TElem elem, int position) {
 }
 
 DLLAIterator DLLA::iterator() {
-    return DLLAIter
+    return DLLAIterator(*this);
+}
+DLL
