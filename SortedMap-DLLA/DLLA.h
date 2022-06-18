@@ -9,3 +9,25 @@
 #include <iostream>
 
 class DLLAIterator;
+typedef int TKey;
+typedef int TValue;
+typedef std::pair<TKey, TValue> TElem;
+
+struct DLLANode
+{
+    TElem elem;
+    int next;
+    int prev;
+};
+
+class DLLA
+{
+    friend class DLLAIterator;
+    friend class SortedMap;
+private:
+    DLLANode *nodes;
+    int head;
+    int tail;
+    int firstEmpty;
+    int capacity;
+    int length;
