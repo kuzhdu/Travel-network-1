@@ -31,3 +31,14 @@ private:
     int firstEmpty;
     int capacity;
     int length;
+
+public:
+    DLLA();
+    void resize();
+    int allocate();
+    void free(int position);
+    void insertElement(TElem elem, int position);
+    DLLAIterator iterator();
+    ~DLLA();
+};
+#endif //LABORATORY4_DLLA_H
