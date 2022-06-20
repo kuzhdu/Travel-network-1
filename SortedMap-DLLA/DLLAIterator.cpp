@@ -33,3 +33,23 @@ bool DLLAIterator::valid() {
 //Complexity: theta(1)
 void DLLAIterator::next() {
     if (!this->valid())
+        throw std::exception();
+    this->pos = this->toIterate.nodes[this->pos].next;
+}
+
+//Complexity: theta(1)
+TElem DLLAIterator::getCurrent() {
+    if (!this->valid())
+        throw std::exception();
+    return this->toIterate.nodes[this->pos].elem;
+}
+/*
+subalgoritm next (it) is:
+//pre: it is a DLLAIterator, it is valid
+//post: the current elements from it is moved to the next element
+//throws exception if the iterator is not valid
+    if it.currentElement = -1
+        then @throw exception
+    end-if
+    it.currentElement <- it.list.nodes[it.currentElement].next
+end-subalgorithm
