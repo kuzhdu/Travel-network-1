@@ -53,3 +53,13 @@ subalgoritm next (it) is:
     end-if
     it.currentElement <- it.list.nodes[it.currentElement].next
 end-subalgorithm
+ */
+//Complexity theta(1)
+void DLLAIterator::previous() {
+    if (this->pos == - 1)
+        throw std::exception();
+    this->pos = this->toIterate.nodes[this->pos].prev;
+}
+
+DLLAIterator::~DLLAIterator() {
+}
