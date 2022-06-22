@@ -8,3 +8,25 @@
 
 #include "DLLA.h"
 #include <exception>
+
+class SortedMap;
+class DLLAIterator {
+protected:
+    DLLA toIterate;
+    int pos;
+public:
+    DLLAIterator(DLLA& toIterate);
+    DLLAIterator(SortedMap &map);
+    bool valid();
+
+    void next();
+
+    TElem getCurrent();
+
+    void first();
+    void previous();
+    ~DLLAIterator();
+};
+
+
+#endif //LABORATORY4_DLLAITERATOR_H
