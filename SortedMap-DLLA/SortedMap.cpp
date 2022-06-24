@@ -53,3 +53,22 @@ TValue SortedMap::remove(TKey c) {
     while (index != -1 && this->map.nodes[index].elem.first != c)
         index = this->map.nodes[index].next;
     if (index == -1)
+        return NULL_TVALUE;
+    retVal = this->map.nodes[index].elem.second;
+    this->map.free(index);
+    return retVal;
+}
+
+int SortedMap::size() const {
+    return this->map.length;
+}
+
+bool SortedMap::isEmpty() const {
+    if (this->map.length == 0)
+        return true;
+    return false;
+}
+
+SMIterator SortedMap::iterator() {
+    return SMIterator{this->map};
+}
