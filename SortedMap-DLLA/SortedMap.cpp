@@ -30,3 +30,26 @@ TValue SortedMap::add(TKey c, TValue v) {
     }
     this->map.insertElement(TElem(c, v), position);
     return NULL_TVALUE;
+}
+
+//Complexity O(n)
+TValue SortedMap::search(TKey c) const {
+    int index = this->map.head;
+
+    while (index != -1) {
+        if (this->map.nodes[index].elem.first == c) {
+            return this->map.nodes[index].elem.second;
+        }
+        index = this->map.nodes[index].next;
+    }
+    return NULL_TVALUE;
+}
+
+//Complexity O(n)
+TValue SortedMap::remove(TKey c) {
+    int index = this->map.head;
+    int retVal;
+
+    while (index != -1 && this->map.nodes[index].elem.first != c)
+        index = this->map.nodes[index].next;
+    if (index == -1)
