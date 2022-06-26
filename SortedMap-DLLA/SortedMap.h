@@ -55,3 +55,5 @@ public:
 
 };
 
+
+#endif //LABORATORY4_SORTEDMAP_H
