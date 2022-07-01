@@ -46,3 +46,27 @@ void testCreate() {
     catch (exception&) {
         assert(true);
     }
+
+    for (int i = 0; i < 10; i++) {
+        assert(sm.search(i) == NULL_TVALUE);
+    }
+
+    for (int i = -10; i < 10; i++) {
+        assert(sm.remove(i) == NULL_TVALUE);
+    }
+}
+
+void testSearch(Relation r) {
+    SortedMap sm(r);
+    int cMin = 0;
+    int cMax = 10;
+    try {
+        for (int i = cMin; i <= cMax; i++) {
+            sm.add(i, i + 1);
+        }
+        assert(true);
+    } catch (exception&) {
+        assert(false);
+    }
+    int intervalDim = 10;
+    for (int i = cMin; i <= cMax; i++) {
