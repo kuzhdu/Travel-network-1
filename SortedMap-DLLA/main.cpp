@@ -70,3 +70,28 @@ void testSearch(Relation r) {
     }
     int intervalDim = 10;
     for (int i = cMin; i <= cMax; i++) {
+        assert(sm.search(i) == i + 1);
+    }
+    for (int i = cMin - intervalDim; i < cMin; i++) {
+        assert(sm.search(i) == NULL_TVALUE);
+    }
+    for (int i = cMax + 1; i < cMax + intervalDim; i++) {
+        assert(sm.search(i) == NULL_TVALUE);
+    }
+}
+
+void testSearch() {
+    testSearch(increasing);
+    testSearch(decreasing);
+}
+
+vector<int> keysInRandomOrder(int cMin, int cMax) {
+    vector<int> keys;
+    for (int c = cMin; c <= cMax; c++) {
+        keys.push_back(c);
+    }
+    int n = keys.size();
+    for (int i = 0; i < n - 1; i++) {
+        int j = i + rand() % (n - i);
+        swap(keys[i], keys[j]);
+    }
