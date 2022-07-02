@@ -95,3 +95,31 @@ vector<int> keysInRandomOrder(int cMin, int cMax) {
         int j = i + rand() % (n - i);
         swap(keys[i], keys[j]);
     }
+    return keys;
+}
+
+void populateSMEmpty(SortedMap& sm, int cMin, int cMax) {
+    vector<int> keys = keysInRandomOrder(cMin, cMax);
+    int n = keys.size();
+    for (int i = 0; i < n; i++) {
+        assert(sm.add(keys[i], keys[i]) == NULL_TVALUE);
+    }
+}
+
+void rePopulateSMShift(SortedMap& sm, int cMin, int cMax, int shift) {
+    vector<int> keys = keysInRandomOrder(cMin, cMax);
+    int n = keys.size();
+    for (int i = 0; i < n; i++) {
+        assert(sm.add(keys[i], keys[i] - shift) == keys[i]);
+    }
+}
+
+void populateSMShift(SortedMap& sm, int cMin, int cMax, int shift) {
+    vector<int> keys = keysInRandomOrder(cMin, cMax);
+    int n = keys.size();
+    for (int i = 0; i < n; i++) {
+        sm.add(keys[i], keys[i] - shift);
+    }
+}
+
+void testAddAndSearch(Relation r) {
