@@ -123,3 +123,21 @@ void populateSMShift(SortedMap& sm, int cMin, int cMax, int shift) {
 }
 
 void testAddAndSearch(Relation r) {
+    SortedMap sm(r);
+    int cMin = 100;
+    int cMax = 200;
+
+    populateSMEmpty(sm, cMin, cMax);
+    for (int c = cMin; c <= cMax; c++) {
+        assert(sm.search(c) == c);
+    }
+    assert(sm.size() == (cMax - cMin + 1));
+
+    rePopulateSMShift(sm, cMin, cMax, 1);
+    assert(sm.size() == (cMax - cMin + 1));
+
+    populateSMShift(sm, 2 * cMax, 3 * cMax, 2 * cMax - cMin);
+    for (int c = 2 * cMax; c <= 3 * cMax; c++) {
+        assert(sm.search(c) == c - 2 * cMax + cMin);
+    }
+    assert(sm.size() == (cMax - cMin + 1) + (cMax + 1));
