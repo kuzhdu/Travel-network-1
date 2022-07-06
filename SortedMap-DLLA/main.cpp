@@ -187,3 +187,19 @@ void testRemoveAndSearch(Relation r) {
                 TKey c = it.getCurrent().first;
                 assert(r(cPrec, c));
                 cPrec = c;
+                it.next();
+            }
+        }
+
+        dim--;
+        assert(sm.size() == dim);
+
+    }
+
+    for (int c = cMin; c <= cMax; c++) {
+        assert(sm.remove(c) == NULL_TVALUE);
+    }
+    assert(sm.isEmpty());
+    assert(sm.size() == 0);
+
+}
