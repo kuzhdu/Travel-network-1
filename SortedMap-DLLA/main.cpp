@@ -163,3 +163,27 @@ void testAdd() {
     testAddAndSearch(increasing);
     testAddAndSearch(decreasing);
 }
+
+void testRemoveAndSearch(Relation r) {
+    SortedMap sm(r);
+    int cMin = 10;
+    int cMax = 20;
+    populateSMEmpty(sm, cMin, cMax);
+    for (int c = cMax + 1; c <= 2 * cMax; c++) {
+        assert(sm.remove(c) == NULL_TVALUE);
+    }
+    int dim = cMax - cMin + 1;
+    assert(sm.size() == dim);
+    for (int c = cMin; c <= cMax; c++) {
+        assert(sm.remove(c) == c);
+        assert(sm.search(c) == NULL_TVALUE);
+
+        SMIterator it = sm.iterator();
+        it.first();
+        if (it.valid()) {
+            TKey cPrec = it.getCurrent().first;
+            it.next();
+            while (it.valid()) {
+                TKey c = it.getCurrent().first;
+                assert(r(cPrec, c));
+                cPrec = c;
