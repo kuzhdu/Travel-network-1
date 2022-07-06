@@ -141,3 +141,25 @@ void testAddAndSearch(Relation r) {
         assert(sm.search(c) == c - 2 * cMax + cMin);
     }
     assert(sm.size() == (cMax - cMin + 1) + (cMax + 1));
+
+    SMIterator it = sm.iterator();
+    it.first();
+    if (it.valid()) {
+        TKey cPrec = it.getCurrent().first;
+        assert(sm.search(cPrec) != NULL_TVALUE);
+        it.next();
+        while (it.valid()) {
+            TKey c = it.getCurrent().first;
+            assert(r(cPrec, c));
+            assert(sm.search(c) != NULL_TVALUE);
+            cPrec = c;
+            it.next();
+        }
+    }
+
+}
+
+void testAdd() {
+    testAddAndSearch(increasing);
+    testAddAndSearch(decreasing);
+}
