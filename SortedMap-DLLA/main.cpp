@@ -232,3 +232,22 @@ void testIterator(Relation r) {
     for (int i=1; i < 100; i++){
         assert(cPrec == itSM.getCurrent().first);
     }
+    itSM.next();
+    while (itSM.valid()) {
+        TKey c = itSM.getCurrent().first;
+        assert(cMin <= c && c <= cMax);
+        assert(sm.search(c) != NULL_TVALUE);
+        assert(r(cPrec, c));
+        cPrec = c;
+        itSM.next();
+    }
+}
+
+void testQuantity(){
+    SortedMap sm(increasing);
+    int cMin = -3000;
+    int cMax = 3000;
+    vector<int> keys  = keysInRandomOrder(cMin, cMax);
+    populateSMEmpty(sm, cMin, cMax);
+    for (int c = cMin; c <= cMax; c++){
+        assert(sm.search(c) == c);
