@@ -203,3 +203,32 @@ void testRemoveAndSearch(Relation r) {
     assert(sm.size() == 0);
 
 }
+
+void testRemove() {
+    testRemoveAndSearch(increasing);
+    testRemoveAndSearch(decreasing);
+}
+
+void testIterator(Relation r) {
+    SortedMap sm(r);
+    SMIterator it = sm.iterator();
+    assert(!it.valid());
+    it.first();
+    assert(!it.valid());
+    int cMin = 100;
+    int cMax = 300;
+    vector<int> keys = keysInRandomOrder(cMin, cMax);
+    int n = keys.size();
+    for (int i = 0; i < n; i++) {
+        assert(sm.add(keys[i], keys[n - i - 1]) == NULL_TVALUE);
+    }
+
+    SMIterator itSM = sm.iterator();
+    assert(itSM.valid());
+    itSM.first();
+    assert(itSM.valid());
+
+    TKey cPrec = itSM.getCurrent().first;
+    for (int i=1; i < 100; i++){
+        assert(cPrec == itSM.getCurrent().first);
+    }
