@@ -251,3 +251,13 @@ void testQuantity(){
     populateSMEmpty(sm, cMin, cMax);
     for (int c = cMin; c <= cMax; c++){
         assert(sm.search(c) == c);
+    }
+    assert(sm.size() == cMax - cMin + 1);
+    SMIterator it  = sm.iterator();
+    assert(it.valid());
+    it.first();
+    assert(it.valid());
+    for (int i = 0; i < sm.size(); i++) {
+        it.next();
+    }
+    assert(!it.valid());
