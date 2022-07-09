@@ -282,3 +282,22 @@ void testIterator() {
     testIterator(increasing);
     testIterator(decreasing);
 }
+
+void testAllExtended() {
+    testCreate();
+    testAdd();
+    testSearch();
+    testRemove();
+    testIterator();
+    testQuantity();
+}
+
+
+bool relatie1(TKey cheie1, TKey cheie2) {
+    if (cheie1 <= cheie2) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
