@@ -328,3 +328,27 @@ void testAll(){
 bool relation(TKey a, TKey b)
 {
     return a <= b;
+}
+int main() {
+    testAll();
+    testAllExtended();
+
+    std::cout << "ALL tests passed.\n";
+    SortedMap sm{relation};
+    sm.add(7,12);
+    sm.add(3,13);
+    sm.add(10,432);
+    sm.add(1,10);
+    sm.add(8,223);
+    sm.add(14,132);
+    sm.remove(14);
+    sm.search(34);
+
+    //std::cout<<sm.search(1)<<"\n";
+    SMIterator it = sm.iterator();
+    std::cout << it.getCurrent().second << ' ';
+    it.next();
+    std::cout << it.getCurrent().second << ' ';
+    it.previous();
+    std::cout << it.getCurrent().second << ' ';
+    /*
