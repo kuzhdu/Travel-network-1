@@ -261,3 +261,24 @@ void testQuantity(){
         it.next();
     }
     assert(!it.valid());
+    it.first();
+    while (it.valid()){
+        TKey c = it.getCurrent().first;
+        assert(sm.search(c) == c);
+        TValue v  = it.getCurrent().second;
+        assert(c == v);
+        it.next();
+    }
+    assert(!it.valid());
+    for (int c = cMin-100; c <= cMax+100; c++){
+        sm.remove(c);
+        assert(sm.search(c) == NULL_TVALUE);
+    }
+    assert(sm.size() == 0);
+    assert(sm.isEmpty());
+}
+
+void testIterator() {
+    testIterator(increasing);
+    testIterator(decreasing);
+}
