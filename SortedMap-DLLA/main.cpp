@@ -352,3 +352,12 @@ int main() {
     it.previous();
     std::cout << it.getCurrent().second << ' ';
     /*
+    while (it.valid())
+    {
+
+        TElem current = it.getCurrent();
+        std::cout<<current.second<<" ";
+        it.next();
+    }*/
+    return 0;
+}
