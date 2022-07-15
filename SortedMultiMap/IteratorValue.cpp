@@ -2,4 +2,5 @@
 #include <iostream>
 #include <queue>
 
-IteratorValue::IteratorValue(const DynamicArray *c, i
+IteratorValue::IteratorValue(const DynamicArray *c, int key) {
+    for (int
