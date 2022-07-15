@@ -3,4 +3,4 @@
 #include <queue>
 
 IteratorValue::IteratorValue(const DynamicArray *c, int key) {
-    for (int
+    for (int i = 0; i < c->size()
