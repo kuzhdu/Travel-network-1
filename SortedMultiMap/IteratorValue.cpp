@@ -2,4 +2,4 @@
 #include <iostream>
 #include <queue>
 
-IteratorValue::IteratorValue
+IteratorValue::IteratorValue(const DynamicArray *c, i
