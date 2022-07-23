@@ -5,4 +5,4 @@
 IteratorValue::IteratorValue(const DynamicArray *c, int key) {
     for (int i = 0; i < c->size(); i++)
         if (c->getElement(i).first == key)
-            this
+            this->myqueue.push(c->ge
