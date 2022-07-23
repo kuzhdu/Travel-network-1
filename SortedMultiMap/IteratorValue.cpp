@@ -4,4 +4,5 @@
 
 IteratorValue::IteratorValue(const DynamicArray *c, int key) {
     for (int i = 0; i < c->size(); i++)
-        if (c->getElement(i).first == k
+        if (c->getElement(i).first == key)
+            this
