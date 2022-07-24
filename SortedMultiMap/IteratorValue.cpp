@@ -7,3 +7,6 @@ IteratorValue::IteratorValue(const DynamicArray *c, int key) {
         if (c->getElement(i).first == key)
             this->myqueue.push(c->getElement(i).second);
     this->copy = this->myqueue;
+}
+
+void Iterato
