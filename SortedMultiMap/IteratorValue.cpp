@@ -10,4 +10,7 @@ IteratorValue::IteratorValue(const DynamicArray *c, int key) {
 }
 
 void IteratorValue::first() {
-    th
+    this->myqueue = copy;
+}
+
+vo
