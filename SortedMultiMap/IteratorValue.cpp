@@ -9,4 +9,5 @@ IteratorValue::IteratorValue(const DynamicArray *c, int key) {
     this->copy = this->myqueue;
 }
 
-void Iterato
+void IteratorValue::first() {
+    th
