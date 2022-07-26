@@ -13,4 +13,5 @@ void IteratorValue::first() {
     this->myqueue = copy;
 }
 
-void IteratorValue::nex
+void IteratorValue::next() {
+    this->
