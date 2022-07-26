@@ -14,4 +14,7 @@ void IteratorValue::first() {
 }
 
 void IteratorValue::next() {
-    this->
+    this->myqueue.pop();
+}
+
+bool Ite
