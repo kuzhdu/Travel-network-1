@@ -17,4 +17,4 @@ void IteratorValue::next() {
     this->myqueue.pop();
 }
 
-bool Ite
+bool IteratorValue::valid() const {
