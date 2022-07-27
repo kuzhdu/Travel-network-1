@@ -18,4 +18,7 @@ void IteratorValue::next() {
 }
 
 bool IteratorValue::valid() const {
-    return this->myqueue.empty() == 
+    return this->myqueue.empty() == false;
+}
+
+int IteratorValue
