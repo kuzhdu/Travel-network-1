@@ -18,3 +18,4 @@ void IteratorValue::next() {
 }
 
 bool IteratorValue::valid() const {
+    return thi
