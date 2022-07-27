@@ -18,4 +18,4 @@ void IteratorValue::next() {
 }
 
 bool IteratorValue::valid() const {
-    return thi
+    return this->myqueue.empty() == 
