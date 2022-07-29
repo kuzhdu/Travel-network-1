@@ -21,4 +21,5 @@ bool IteratorValue::valid() const {
     return this->myqueue.empty() == false;
 }
 
-int IteratorValue::getCurrent() con
+int IteratorValue::getCurrent() const {
+    return myq
