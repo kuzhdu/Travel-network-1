@@ -22,4 +22,5 @@ bool IteratorValue::valid() const {
 }
 
 int IteratorValue::getCurrent() const {
-    return myq
+    return myqueue.front();
+}
