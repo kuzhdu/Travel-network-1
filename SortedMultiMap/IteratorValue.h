@@ -5,4 +5,7 @@
 #include <queue>
 #include <iostream>
 
-class IteratorVa
+class IteratorValue
+{
+private:
+    std::que
