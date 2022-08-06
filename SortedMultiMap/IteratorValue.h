@@ -9,4 +9,5 @@ class IteratorValue
 {
 private:
     std::queue<int> myqueue;
-    std::queue<int> c
+    std::queue<int> copy;
+public:
