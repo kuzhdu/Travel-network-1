@@ -11,3 +11,4 @@ private:
     std::queue<int> myqueue;
     std::queue<int> copy;
 public:
+    IteratorValue(const D
