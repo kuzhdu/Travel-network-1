@@ -8,4 +8,4 @@
 class IteratorValue
 {
 private:
-    std::que
+    std::queue<int> myqueue;
