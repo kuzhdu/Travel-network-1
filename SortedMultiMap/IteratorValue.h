@@ -17,4 +17,6 @@ public:
 
     void next();
 
-    bool val
+    bool valid() const;
+
+    int getCurr
