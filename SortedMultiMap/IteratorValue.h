@@ -14,3 +14,7 @@ public:
     IteratorValue(const DynamicArray *c, int key);
 
     void first();
+
+    void next();
+
+    bool val
