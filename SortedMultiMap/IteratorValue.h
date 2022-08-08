@@ -19,4 +19,6 @@ public:
 
     bool valid() const;
 
-    int getCurr
+    int getCurrent() const;
+};
+
