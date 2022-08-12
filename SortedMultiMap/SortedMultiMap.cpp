@@ -4,4 +4,5 @@
 #include <iostream>
 
 SortedMultiMap::SortedMultiMap(Relation r) {
-    th
+    this->relation = r;
+    t
