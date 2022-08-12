@@ -5,4 +5,7 @@
 
 SortedMultiMap::SortedMultiMap(Relation r) {
     this->relation = r;
-    this->da = new DynamicArray
+    this->da = new DynamicArray(100);
+}
+
+vector<TValue
