@@ -5,4 +5,4 @@
 
 SortedMultiMap::SortedMultiMap(Relation r) {
     this->relation = r;
-    t
+    this->da = new DynamicArray
