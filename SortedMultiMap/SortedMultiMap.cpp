@@ -3,4 +3,5 @@
 #include <unistd.h>
 #include <iostream>
 
-SortedMultiMap::Sorted
+SortedMultiMap::SortedMultiMap(Relation r) {
+    th
