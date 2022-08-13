@@ -8,4 +8,4 @@ SortedMultiMap::SortedMultiMap(Relation r) {
     this->da = new DynamicArray(100);
 }
 
-vector<TValue> SortedMultiMap::se
+vector<TValue> SortedMultiMap::search(TKey c) con
