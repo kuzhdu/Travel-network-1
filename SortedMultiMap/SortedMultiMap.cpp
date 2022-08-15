@@ -9,4 +9,5 @@ SortedMultiMap::SortedMultiMap(Relation r) {
 }
 
 vector<TValue> SortedMultiMap::search(TKey c) const {
-    int index = 0
+    int index = 0;
+    vector<int> vec;
