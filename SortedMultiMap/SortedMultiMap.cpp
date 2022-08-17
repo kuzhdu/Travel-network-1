@@ -12,4 +12,5 @@ vector<TValue> SortedMultiMap::search(TKey c) const {
     int index = 0;
     vector<int> vec;
     SMMIterator it = this->da->iterator();
-    it.firs
+    it.first();
+    while (it.v
