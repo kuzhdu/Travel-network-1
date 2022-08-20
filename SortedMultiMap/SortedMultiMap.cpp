@@ -16,4 +16,5 @@ vector<TValue> SortedMultiMap::search(TKey c) const {
     while (it.valid())
     {
         TElem current = it.getCurrent();
-        if (c
+        if (current.first == c)
+         
