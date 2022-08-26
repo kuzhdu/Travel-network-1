@@ -23,4 +23,5 @@ vector<TValue> SortedMultiMap::search(TKey c) const {
     return vec;
 }
 
-void SortedMultiMap::add(TKey
+void SortedMultiMap::add(TKey c, TValue v) {
+    int index 
