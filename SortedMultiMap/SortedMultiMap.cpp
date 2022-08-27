@@ -27,4 +27,5 @@ void SortedMultiMap::add(TKey c, TValue v) {
     int index = 0;
     SMMIterator it = this->da->iterator();
     it.first();
-  
+    while (it.valid())
+ 
