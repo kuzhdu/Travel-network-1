@@ -25,4 +25,4 @@ vector<TValue> SortedMultiMap::search(TKey c) const {
 
 void SortedMultiMap::add(TKey c, TValue v) {
     int index = 0;
-    SMMIterat
+    SMMIterator it = this->da->iter
