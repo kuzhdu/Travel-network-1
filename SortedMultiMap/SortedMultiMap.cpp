@@ -28,4 +28,5 @@ void SortedMultiMap::add(TKey c, TValue v) {
     SMMIterator it = this->da->iterator();
     it.first();
     while (it.valid())
- 
+    {
+        TElem current = i
