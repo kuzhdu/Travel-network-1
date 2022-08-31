@@ -29,4 +29,6 @@ void SortedMultiMap::add(TKey c, TValue v) {
     it.first();
     while (it.valid())
     {
-        TElem current = i
+        TElem current = it.getCurrent();
+
+      
