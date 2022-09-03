@@ -36,4 +36,5 @@ void SortedMultiMap::add(TKey c, TValue v) {
             return;
         }
 
-      
+        index++;
+     
