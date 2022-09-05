@@ -40,4 +40,7 @@ void SortedMultiMap::add(TKey c, TValue v) {
         it.next();
        // this->da->setLength(index);
     }
-    this->da->a
+    this->da->addToEnd(TElem(c, v));
+}
+
+int Sorte
