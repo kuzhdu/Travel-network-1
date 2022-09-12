@@ -43,4 +43,4 @@ void SortedMultiMap::add(TKey c, TValue v) {
     this->da->addToEnd(TElem(c, v));
 }
 
-int Sorte
+int SortedMultiMap::size() con
