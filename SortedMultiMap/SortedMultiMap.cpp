@@ -46,4 +46,4 @@ void SortedMultiMap::add(TKey c, TValue v) {
 int SortedMultiMap::size() const {
     int index = 0;
     vector<int> vec;
-    SMMIt
+    SMMIterator it = this->da
