@@ -51,4 +51,6 @@ int SortedMultiMap::size() const {
     while (it.valid())
     {
         index++;
-        it.next(
+        it.next();
+    }
+    return i
