@@ -48,4 +48,6 @@ int SortedMultiMap::size() const {
     vector<int> vec;
     SMMIterator it = this->da->iterator();
     it.first();
-    while (it.vali
+    while (it.valid())
+    {
+        index++;
