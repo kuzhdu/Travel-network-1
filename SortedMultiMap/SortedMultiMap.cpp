@@ -53,4 +53,7 @@ int SortedMultiMap::size() const {
         index++;
         it.next();
     }
-    return i
+    return index;
+}
+
+bool SortedMult
