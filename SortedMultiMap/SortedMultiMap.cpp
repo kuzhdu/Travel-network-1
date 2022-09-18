@@ -57,3 +57,4 @@ int SortedMultiMap::size() const {
 }
 
 bool SortedMultiMap::isEmpty() const {
+    return this->
