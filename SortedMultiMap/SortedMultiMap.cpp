@@ -56,4 +56,4 @@ int SortedMultiMap::size() const {
     return index;
 }
 
-bool SortedMult
+bool SortedMultiMap::isEmpty() const {
