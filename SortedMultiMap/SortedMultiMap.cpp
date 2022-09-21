@@ -61,4 +61,4 @@ bool SortedMultiMap::isEmpty() const {
 }
 
 SMMIterator SortedMultiMap::iterator() const {
-    ret
+    return this->da->iter
