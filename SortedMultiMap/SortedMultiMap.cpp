@@ -60,4 +60,5 @@ bool SortedMultiMap::isEmpty() const {
     return this->size() == 0;
 }
 
-SMMIterator SortedMultiMap::iter
+SMMIterator SortedMultiMap::iterator() const {
+    ret
