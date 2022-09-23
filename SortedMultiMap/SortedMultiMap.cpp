@@ -64,4 +64,4 @@ SMMIterator SortedMultiMap::iterator() const {
     return this->da->iterator();
 }
 
-bool SortedMu
+bool SortedMultiMap::remove(TKey c, TValue 
