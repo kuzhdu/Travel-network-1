@@ -65,4 +65,5 @@ SMMIterator SortedMultiMap::iterator() const {
 }
 
 bool SortedMultiMap::remove(TKey c, TValue v) {
-    i
+    int index = 0;
+   
