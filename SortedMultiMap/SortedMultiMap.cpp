@@ -69,4 +69,6 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
     bool ok = false;
     SMMIterator it = this->da->iterator();
     it.first();
-    while(i
+    while(it.valid())
+    {
+        TElem 
