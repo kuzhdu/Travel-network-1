@@ -72,4 +72,4 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
     while(it.valid())
     {
         TElem current = it.getCurrent();
-        if (current.first == c 
+        if (current.first == c && current.second == v)
