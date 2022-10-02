@@ -75,4 +75,4 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
         if (current.first == c && current.second == v)
             ok = true;
 
-        if (current.first == c &&
+        if (current.first == c && current.second == v)
