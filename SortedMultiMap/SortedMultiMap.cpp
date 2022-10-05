@@ -79,4 +79,4 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
         {
             for (int k = index + 1; k < da->size(); k++)
             {
-                da->setE
+                da->setElement(k - 1, da->getEl
