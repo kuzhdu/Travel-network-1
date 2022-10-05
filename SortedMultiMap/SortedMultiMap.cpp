@@ -77,4 +77,4 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
 
         if (current.first == c && current.second == v)
         {
-            for (
+            for (int k = index + 1; k < da->s
