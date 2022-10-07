@@ -81,4 +81,6 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
             {
                 da->setElement(k - 1, da->getElement(k));
                 break;
-          
+            }
+        }
+    
