@@ -83,4 +83,5 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
                 break;
             }
         }
-    
+        it.next();
+       
