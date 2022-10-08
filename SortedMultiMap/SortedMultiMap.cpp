@@ -86,4 +86,5 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
         it.next();
         index++;
     }
-    if (ok ==
+    if (ok == false)
+        retu
