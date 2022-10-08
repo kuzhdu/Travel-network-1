@@ -88,4 +88,4 @@ bool SortedMultiMap::remove(TKey c, TValue v) {
     }
     if (ok == false)
         return false;
-    da->s
+    da->setLength(da->getLength() - 1
