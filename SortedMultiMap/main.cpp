@@ -49,3 +49,27 @@ void testSearch(Relation r) {
     }
     int intervalDim = 10;
     for (int i = kMin; i <= kMax; i++) {
+        vector<TValue> v= smm.search(i);
+        assert(v.size()==2);
+    }
+    for (int i = kMin - intervalDim; i < kMin; i++) {
+        vector<TValue> v= smm.search(i);
+        assert(v.size()==0);
+    }
+    for (int i = kMax + 1; i < kMax + intervalDim; i++) {
+        vector<TValue> v= smm.search(i);
+        assert(v.size()==0);
+    }
+}
+
+void testSearch() {
+    testSearch(asc);
+    testSearch(desc);
+}
+
+void populateSMMEmpty(SortedMultiMap& smm, int min, int max) {
+    for (int i = min; i <= max; i++) {
+        smm.add(i, i);
+        if (i%2 ==0)
+            smm.add(i, i+2);
+    }
