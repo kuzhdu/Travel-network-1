@@ -73,3 +73,27 @@ void populateSMMEmpty(SortedMultiMap& smm, int min, int max) {
         if (i%2 ==0)
             smm.add(i, i+2);
     }
+}
+
+void testRemoveSearch(Relation r) {
+    SortedMultiMap smm = SortedMultiMap(r);
+    int min = 10;
+    int max = 20;
+    populateSMMEmpty(smm, min, max);
+    for (int c = min; c <= max; c++) {
+        assert(smm.remove(c, c+1) == false);
+        if (c%2==0)
+            assert(smm.remove(c,c) == true);
+    }
+
+    for (int c = min; c <= max; c++) {
+        if (c%2==1){
+            assert(smm.remove(c,c+1) == false);
+            assert(smm.remove(c,c) == true);
+        }
+        else{
+            assert(smm.remove(c,c+2) == true);
+        }
+    }
+    assert(smm.size() == 0);
+}
