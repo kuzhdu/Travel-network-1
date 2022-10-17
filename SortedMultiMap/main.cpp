@@ -97,3 +97,34 @@ void testRemoveSearch(Relation r) {
     }
     assert(smm.size() == 0);
 }
+
+void testRemove() {
+    testRemoveSearch(asc);
+    testRemoveSearch(desc);
+}
+
+vector<int> randomKeys(int kMin, int kMax) {
+    vector<int> keys;
+    for (int c = kMin; c <= kMax; c++) {
+        keys.push_back(c);
+    }
+    int n = keys.size();
+    for (int i = 0; i < n - 1; i++) {
+        int j = i + rand() % (n - i);
+        swap(keys[i], keys[j]);
+    }
+    return keys;
+}
+
+
+void testIterator(Relation r) {
+    SortedMultiMap smm = SortedMultiMap(r);
+    SMMIterator it = smm.iterator();
+    assert(!it.valid());
+    it.first();
+    assert(!it.valid());
+    int cMin = 100;
+    int cMax = 300;
+    vector<int> keys = randomKeys(cMin, cMax);
+    int n = keys.size();
+    for (int i = 0; i < n; i++) {
