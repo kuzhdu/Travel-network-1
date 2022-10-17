@@ -128,3 +128,33 @@ void testIterator(Relation r) {
     vector<int> keys = randomKeys(cMin, cMax);
     int n = keys.size();
     for (int i = 0; i < n; i++) {
+        smm.add(keys[i], 100);
+        if (keys[i]%2==0)	{
+            smm.add(keys[i], 200);
+        }
+    }
+
+    SMMIterator itsmm = smm.iterator();
+    assert(itsmm.valid());
+    itsmm.first();
+    assert(itsmm.valid());
+
+    TKey kPrev = itsmm.getCurrent().first;
+
+    itsmm.next();
+    while (itsmm.valid()) {
+        TKey k = itsmm.getCurrent().first;
+        assert(r(kPrev, k));
+        kPrev = k;
+        itsmm.next();
+    }
+}
+
+void testIterator() {
+    testIterator(asc);
+    testIterator(desc);
+}
+
+void testAllExtended() {
+    testCreate();
+    testSearch();
