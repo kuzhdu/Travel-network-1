@@ -158,3 +158,21 @@ void testIterator() {
 void testAllExtended() {
     testCreate();
     testSearch();
+    testRemove();
+    testIterator();
+    std::cout <<"da";
+}
+
+int main() {
+    testAll();
+    testAllExtended();
+    std::cout << "All tests passed";
+    return 0;
+    /*
+    SortedMultiMap sm = SortedMultiMap(asc);
+    //testAllExtended();
+
+    sm.add(3, 4);
+    sm.add(2, 2);
+    sm.add(3, 41);
+    sm.add(1, 48);
