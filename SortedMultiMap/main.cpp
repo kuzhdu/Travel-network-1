@@ -203,3 +203,7 @@ int main() {
     {
         TElem current = it.getCurrent();
         std::cout << current.first << " "<< std::get<1>(current) << '\n';
+        it.next();
+    }
+    return 0;*/
+}
