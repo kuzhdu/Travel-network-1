@@ -176,3 +176,30 @@ int main() {
     sm.add(2, 2);
     sm.add(3, 41);
     sm.add(1, 48);
+    sm.add(3, 50);
+    sm.add(3, 2);
+    sm.add(3, 20);
+    SMMIterator it = sm.iterator();
+    it.first();
+    while(it.valid())
+    {
+        TElem current = it.getCurrent();
+        std::cout << current.first << " "<< std::get<1>(current) << '\n';
+        it.next();
+    }
+    //for (auto i = 0; i < da.size(); i++)
+    //std::cout << da[i] << ' ';
+    std::cout << "------------\n";
+    sm.remove(3, 4);
+    sm.remove(2, 2);
+    sm.remove(3, 41);
+    sm.remove(1, 48);
+    sm.remove(3, 50);
+    sm.remove(3, 2);
+    sm.remove(3, 20);
+
+    it.first();
+    while(it.valid())
+    {
+        TElem current = it.getCurrent();
+        std::cout << current.first << " "<< std::get<1>(current) << '\n';
