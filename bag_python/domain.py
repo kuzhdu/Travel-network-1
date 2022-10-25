@@ -1,2 +1,3 @@
 class Bag:
-	def __i
+	def __init__(self):
+		se
