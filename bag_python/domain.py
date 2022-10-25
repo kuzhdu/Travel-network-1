@@ -1,3 +1,5 @@
 class Bag:
 	def __init__(self):
-		se
+		self.__elems = []
+
+	def add(sel
