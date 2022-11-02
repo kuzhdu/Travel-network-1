@@ -4,4 +4,5 @@ class Bag:
 
 	def add(self, e): #complexity O(Unique numbers)
 		ok = False
-		for set in self.__elem
+		for set in self.__elems:
+			if set[0] =
