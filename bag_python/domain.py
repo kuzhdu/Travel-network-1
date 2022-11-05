@@ -13,4 +13,4 @@ class Bag:
 			newSet = [e, 1]
 			self.__elems.append(newSet)
 
-	d
+	def remove(self, e): #com
