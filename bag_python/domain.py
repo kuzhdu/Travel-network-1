@@ -7,4 +7,6 @@ class Bag:
 		for set in self.__elems:
 			if set[0] == e:
 				ok = True
-		
+				set[1] += 1
+
+		if ok is False:
