@@ -10,3 +10,5 @@ class Bag:
 				set[1] += 1
 
 		if ok is False:
+			newSet = [e, 1]
+		
