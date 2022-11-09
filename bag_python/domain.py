@@ -13,4 +13,5 @@ class Bag:
 			newSet = [e, 1]
 			self.__elems.append(newSet)
 
-	def remove(self, e): #com
+	def remove(self, e): #complexity O(Unique numbers)
+		
