@@ -14,4 +14,4 @@ class Bag:
 			self.__elems.append(newSet)
 
 	def remove(self, e): #complexity O(Unique numbers)
-		
+		for index in range(len(sel
