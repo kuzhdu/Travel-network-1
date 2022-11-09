@@ -15,4 +15,5 @@ class Bag:
 
 	def remove(self, e): #complexity O(Unique numbers)
 		for index in range(len(self.__elems)):
-			set = self.__el
+			set = self.__elems[index]
+			if set[0]
