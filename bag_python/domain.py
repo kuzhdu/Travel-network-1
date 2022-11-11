@@ -19,4 +19,4 @@ class Bag:
 			if set[0] == e and set[1] > 1:
 				set[1] -= 1
 				return True
-			elif se
+			elif set[0] == e and set[1] ==
