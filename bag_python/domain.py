@@ -17,3 +17,5 @@ class Bag:
 		for index in range(len(self.__elems)):
 			set = self.__elems[index]
 			if set[0] == e and set[1] > 1:
+				set[1] -= 1
+	
