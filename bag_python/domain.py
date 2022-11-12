@@ -22,4 +22,6 @@ class Bag:
 			elif set[0] == e and set[1] == 1:
 				self.__elems.pop(index)
 				return True
-		r
+		return False
+
+	def search
