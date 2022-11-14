@@ -24,4 +24,4 @@ class Bag:
 				return True
 		return False
 
-	def search
+	def search(self, e): #complexity O(U
