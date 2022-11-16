@@ -28,4 +28,6 @@ class Bag:
 		for set in self.__elems:
 			if set[0] == e:
 				return True
-		return
+		return False
+
+	def size(self): #comp
