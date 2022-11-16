@@ -25,4 +25,6 @@ class Bag:
 		return False
 
 	def search(self, e): #complexity O(Unique numbers)
-		for set in self.__el
+		for set in self.__elems:
+			if set[0] == e:
+	
