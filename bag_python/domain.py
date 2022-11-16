@@ -30,4 +30,4 @@ class Bag:
 				return True
 		return False
 
-	def size(self): #comp
+	def size(self): #complexity theta(Unique numb
