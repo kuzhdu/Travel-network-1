@@ -30,4 +30,6 @@ class Bag:
 				return True
 		return False
 
-	def size(self): #complexity theta(Unique numb
+	def size(self): #complexity theta(Unique numbers)
+		cnt = 0
+		for
