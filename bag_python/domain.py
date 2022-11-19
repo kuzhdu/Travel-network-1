@@ -32,4 +32,5 @@ class Bag:
 
 	def size(self): #complexity theta(Unique numbers)
 		cnt = 0
-		for
+		for set in self.__elems:
+			
