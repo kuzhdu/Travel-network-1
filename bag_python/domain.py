@@ -36,4 +36,4 @@ class Bag:
 			cnt += set[1]
 		return cnt
 
-	def nrOcc
+	def nrOccurrences(self,
