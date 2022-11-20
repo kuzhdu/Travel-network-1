@@ -34,4 +34,6 @@ class Bag:
 		cnt = 0
 		for set in self.__elems:
 			cnt += set[1]
-		re
+		return cnt
+
+	def nrOcc
