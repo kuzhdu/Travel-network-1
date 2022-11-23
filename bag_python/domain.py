@@ -36,4 +36,4 @@ class Bag:
 			cnt += set[1]
 		return cnt
 
-	def nrOccurrences(self,
+	def nrOccurrences(self, e): #complexity O(Uni
