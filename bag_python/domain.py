@@ -37,4 +37,5 @@ class Bag:
 		return cnt
 
 	def nrOccurrences(self, e): #complexity O(Unique numbers)
-		for set in se
+		for set in self.__elems:
+			if set
