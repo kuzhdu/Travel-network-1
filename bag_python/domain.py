@@ -42,4 +42,5 @@ class Bag:
 				return set[1]
 		return 0
 
-	def iterator(self):
+	def iterator(self): #O(1)
+		return BagIt
