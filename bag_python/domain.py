@@ -40,4 +40,6 @@ class Bag:
 		for set in self.__elems:
 			if set[0] == e:
 				return set[1]
-	
+		return 0
+
+	def iterator(self):
