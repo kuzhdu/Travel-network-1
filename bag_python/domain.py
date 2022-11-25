@@ -45,4 +45,5 @@ class Bag:
 	def iterator(self): #O(1)
 		return BagIterator(self)
 
-	def isE
+	def isEmpty(self):#O(1)
+		if len(
