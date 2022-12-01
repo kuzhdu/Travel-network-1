@@ -50,4 +50,5 @@ class Bag:
 			return True
 		return False
 	
-	def 
+	def __str__(self):
+		for a in 
