@@ -46,4 +46,6 @@ class Bag:
 		return BagIterator(self)
 
 	def isEmpty(self):#O(1)
-		if len(self.__elems) == 
+		if len(self.__elems) == 0:
+			return True
+	
