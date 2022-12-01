@@ -48,4 +48,6 @@ class Bag:
 	def isEmpty(self):#O(1)
 		if len(self.__elems) == 0:
 			return True
+		return False
 	
+	def 
