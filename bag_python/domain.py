@@ -51,4 +51,5 @@ class Bag:
 		return False
 	
 	def __str__(self):
-		for a in 
+		for a in self.__elems:
+			print(str(a[
