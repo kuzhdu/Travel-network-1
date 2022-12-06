@@ -52,4 +52,5 @@ class Bag:
 	
 	def __str__(self):
 		for a in self.__elems:
-			print(str(a[
+			print(str(a[0]) + " " + str(a[1]))
+	
