@@ -56,4 +56,5 @@ class Bag:
 		return ""
 
 
-class Bag
+class BagIterator:
+	def __ini
