@@ -53,4 +53,7 @@ class Bag:
 	def __str__(self):
 		for a in self.__elems:
 			print(str(a[0]) + " " + str(a[1]))
-	
+		return ""
+
+
+class Bag
