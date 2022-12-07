@@ -57,4 +57,5 @@ class Bag:
 
 
 class BagIterator:
-	def __ini
+	def __init__(self, bag):
+		se
