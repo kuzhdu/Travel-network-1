@@ -58,4 +58,5 @@ class Bag:
 
 class BagIterator:
 	def __init__(self, bag):
-		se
+		self.__bag = bag
+	
