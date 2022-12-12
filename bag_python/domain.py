@@ -59,4 +59,5 @@ class Bag:
 class BagIterator:
 	def __init__(self, bag):
 		self.__bag = bag
-	
+		self.__current = 0
+		sel
