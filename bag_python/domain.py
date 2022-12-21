@@ -62,4 +62,5 @@ class BagIterator:
 		self.__current = 0
 		self.__currentSecond = 0
 
-	def first(self)
+	def first(self):#O(1)
+		self.__current 
