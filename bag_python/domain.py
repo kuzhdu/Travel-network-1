@@ -67,4 +67,4 @@ class BagIterator:
 		self.__currentSecond = 0
 
 	def valid(self):#O(1)
-		return sel
+		return self.__current < len(self
