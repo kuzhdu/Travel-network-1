@@ -70,4 +70,4 @@ class BagIterator:
 		return self.__current < len(self.__bag._Bag__elems)
 
 	def next(self):
-		if 
+		if self.__current == self.
