@@ -71,4 +71,5 @@ class BagIterator:
 
 	def next(self):
 		if self.__current == self.__bag.size():
-			raise Val
+			raise ValueError()
+		if self._
