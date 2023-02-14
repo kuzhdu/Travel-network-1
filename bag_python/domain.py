@@ -75,4 +75,5 @@ class BagIterator:
 		if self.__currentSecond <  self.__bag._Bag__elems[self.__current][1] - 1:
 			self.__currentSecond += 1
 		else:
-		
+			self.__current += 1
+			s
