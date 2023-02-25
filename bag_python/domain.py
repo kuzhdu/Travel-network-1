@@ -76,4 +76,5 @@ class BagIterator:
 			self.__currentSecond += 1
 		else:
 			self.__current += 1
-			s
+			self.__currentSecond = 0
+	
