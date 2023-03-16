@@ -79,4 +79,5 @@ class BagIterator:
 			self.__currentSecond = 0
 		"""
 		elif self.__bag._Bag__elems[self.__current][1] - 1 > self.__currentSecond:
-			self.__
+			self.__currentSecond += 1
+		else
