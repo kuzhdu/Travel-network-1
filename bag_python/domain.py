@@ -85,4 +85,5 @@ class BagIterator:
 		"""
 
 	def getCurrent(self):
-		if s
+		if self.valid() == False:
+	
