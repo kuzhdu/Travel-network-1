@@ -84,4 +84,5 @@ class BagIterator:
 			self.__current += 1
 		"""
 
-	def ge
+	def getCurrent(self):
+		if s
