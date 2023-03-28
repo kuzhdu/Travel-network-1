@@ -86,4 +86,5 @@ class BagIterator:
 
 	def getCurrent(self):
 		if self.valid() == False:
-			raise ValueError
+			raise ValueError()
+		return self.__bag._Bag_
